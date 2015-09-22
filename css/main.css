@@ -85,10 +85,15 @@ MAIN CONTENT
 div#main {
 	position: absolute;
 	top: 64px;
-	padding: 0 64px 24px;
+	padding: 0 32px;
+	max-width: 960px;
 	width: 100%;
 	box-sizing: border-box;
 	line-height: 1.4;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 a {
@@ -101,6 +106,60 @@ a:hover {
 	text-decoration: underline;
 }
 
+div#news {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+div#news .row {
+	display: flex;
+	flex-direction: row;
+}
+div#news .column {
+	display: flex;
+	flex-direction: column;
+}
+
+div#news .item {
+	margin: 12px;
+	position: relative;
+	flex-grow: 1;
+	min-width: 300px;
+	height: 340px;
+	overflow: hidden;
+}
+
+div#news .item img {
+	display: block;
+	min-width: 100%;
+	max-height: 100%;
+}
+div#news .item .text {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	padding: 8px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: rgba(208, 0, 0, 0.85);
+	color: white;
+}
+
+div#news .item-text {
+	font-size: 18px;
+	background-color: #ddd;
+	padding: 0 16px;
+	line-height: 1.8;
+}
+
+iframe {
+	width: 100%;
+	border: none;
+	min-height: 360px;
+}
 
 /*
 FOOTER
@@ -110,8 +169,7 @@ footer {
 	color: #aaa;
 	text-align: center;
 	font-size: 10pt;
-	position: absolute;
-	bottom: 0;
+	margin-top: 16px;
 	display: block;
 	padding: 8px;
 	width: 100%;
