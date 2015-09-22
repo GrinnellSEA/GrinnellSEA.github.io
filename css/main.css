@@ -38,7 +38,7 @@ nav span.nav {
 	padding: 0 16px;
 	width: 96px;
 	text-align: center;
-	line-height: 56px;
+	line-height: 60px;
 	transition: all 100ms;
 }
 
@@ -85,7 +85,7 @@ MAIN CONTENT
 div#main {
 	position: absolute;
 	top: 64px;
-	padding: 0 32px;
+	padding: 0 24px;
 	max-width: 960px;
 	width: 100%;
 	box-sizing: border-box;
@@ -125,9 +125,10 @@ div#news .item {
 	margin: 12px;
 	position: relative;
 	flex-grow: 1;
-	min-width: 300px;
+	min-width: 240px;
 	height: 340px;
 	overflow: hidden;
+	box-sizing: border-box;
 }
 
 div#news .item img {
