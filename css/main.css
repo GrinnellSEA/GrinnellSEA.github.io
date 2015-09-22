@@ -58,7 +58,10 @@ nav span.nav:hover {
 nav span.mobile {
 	display: none;
 }
-
+nav span.mobile .dropdown {
+	left: -64px !important;
+	top: 0 !important;
+}
 nav span.mobile .dropdown a {
 	line-height: 48px;
 	margin: 4px 0;
