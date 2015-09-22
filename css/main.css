@@ -203,6 +203,10 @@ iframe {
 	min-height: 360px;
 }
 
+#main img {
+    -webkit-filter: brightness(0.988);
+}
+
 /*
 FOOTER
 */
