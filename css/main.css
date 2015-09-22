@@ -55,12 +55,17 @@ nav span.nav:hover {
 nav span.nav .dropdown {
 	display: none;
 	background-color: #f00;
-	padding: 0 16px;
 	box-sizing: border-box;
 	position: relative;
 	left: -16px;
+	top: -8px;
+	box-sizing: border-box;
+	padding-top: 8px;
 	width: 296px;
 	text-align: left;
+	box-shadow: 6px 3px 12px -4px rgba(0, 0, 0, 0.2), 
+		-6px 3px 12px -4px rgba(0, 0, 0, 0.2), 
+		0 6px 12px -8px rgba(0, 0, 0, 0.2);
 }
 
 nav .dropdown a {
@@ -68,10 +73,12 @@ nav .dropdown a {
 	color: white;
 	font-size: 16px;
 	display: block;
+	padding: 0 16px;
+	margin: 8px 0;
 }
 
 nav .dropdown a:hover {
-	text-decoration: underline;
+	background-color: #c00;
 }
 
 nav span.nav:hover .dropdown {
@@ -146,7 +153,7 @@ div#news .item .text {
 	box-sizing: border-box;
 	font-size: 20px;
 	font-weight: bold;
-	background-color: rgba(208, 0, 0, 0.85);
+	background-color: rgba(220, 20, 20, 0.85);
 	color: white;
 }
 
