@@ -5,6 +5,8 @@
 
 ## Background
 
+<img alt="logo" src="/assets/logo_256.png" align="right" height="128">
+
 The Grinnell Space Exploration Agency, or GSEA, is a student organization of
 [Grinnell College](http://www.grinnell.edu), a small liberal-arts college in
 Grinnell, Iowa.  It was founded in 2015 with the goal of providing students
