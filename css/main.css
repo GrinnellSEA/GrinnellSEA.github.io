@@ -126,9 +126,10 @@ div#news .item {
 	position: relative;
 	flex-grow: 1;
 	min-width: 240px;
-	height: 340px;
+	height: 320px;
 	overflow: hidden;
 	box-sizing: border-box;
+	background-color: #222;
 }
 
 div#news .item img {
