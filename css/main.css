@@ -137,7 +137,7 @@ div#main {
 }
 
 a {
-	color: #c00;
+	color: #d00;
 	text-decoration: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	-webkit-tap-highlight-color: transparent; /* For some Androids */
