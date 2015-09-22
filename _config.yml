@@ -1,0 +1,9 @@
+name: "GSEA"
+description: "The Grinnell Space Exploration Agency"
+
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: default
