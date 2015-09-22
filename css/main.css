@@ -92,7 +92,7 @@ nav span.nav .dropdown {
 	left: -16px;
 	top: -8px;
 	box-sizing: border-box;
-	padding-top: 8px;
+	padding-top: 4px;
 	width: 296px;
 	text-align: left;
 	box-shadow: 6px 3px 12px -4px rgba(0, 0, 0, 0.2), 
@@ -107,6 +107,7 @@ nav .dropdown a {
 	display: block;
 	padding: 0 16px;
 	margin: 8px 0;
+	line-height: 48px;
 }
 
 nav .dropdown a:hover {
