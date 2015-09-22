@@ -12,7 +12,7 @@ video as well as record temperature and pressure data along the way.
 ## Name
 
 The probe's name is yet to be decided.  Submit your ideas
-[here](https://docs.google.com/forms/d/1tgcRNTG4zPviDQzTFECi1eccURauthWDCu_SQKHIHao/viewform).
+[here](/2015/09/22/naming.html).
 
 ## Project files
 
