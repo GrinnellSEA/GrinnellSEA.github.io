@@ -1,5 +1,6 @@
 name: "GSEA"
 description: "The Grinnell Space Exploration Agency"
+url: "http://grinnellsea.github.io"
 
 defaults:
     -

@@ -85,7 +85,7 @@ MAIN CONTENT
 div#main {
 	position: absolute;
 	top: 64px;
-	padding: 0 16px 24px 16px;
+	padding: 0 64px 24px;
 	width: 100%;
 	box-sizing: border-box;
 	line-height: 1.4;
@@ -94,7 +94,25 @@ div#main {
 a {
 	color: #c00;
 	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
 }
 a:hover {
 	text-decoration: underline;
+}
+
+
+/*
+FOOTER
+*/
+
+footer {
+	color: #aaa;
+	text-align: center;
+	font-size: 10pt;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	padding: 8px;
+	width: 100%;
 }
