@@ -8,29 +8,30 @@
 
 		<title>{{ site.name }}</title>
 
-		<link rel="icon" type="image/png" href="assets/favicon.png">
+		<link rel="icon" type="image/png" href="/assets/favicon.png">
 
 		<link href='https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic' 
 				rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="/css/main.css">
 	</head>
 	<body>
 		<nav>
-			<a id="brand" href="#">
-					<img src="assets/logo_allwhite_128.png">
+			<a id="brand" href="{{ site.url }}">
+					<img src="/assets/logo_allwhite_128.png">
 			</a>
 			<span class="spacer"></span>	
 			<span class="nav">
-				<a href="about.html">About</a>
+				<a>About</a>
 				<div class="dropdown">
-					<a href="about.html">GSEA</a>
+					<a href="/about">GSEA</a>
 					<a href="http://www.grinnell.edu">Grinnell College</a>
 				</div>
 			</span>
 			<span class="nav">
-				<a href="missions.html">Missions</a>
+				<a>Missions</a>
 				<div class="dropdown">
-					<a href="missions/nearspacebaloon.html">Near-Space Balloon</a>
+					<a href="/missions/nearspacebaloon.html">Near-Space Balloon</a>
+					<a href="/missions">All Missions</a>
 				</div>
 			</span>
 		</nav>
