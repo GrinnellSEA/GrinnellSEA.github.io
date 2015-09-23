@@ -204,7 +204,7 @@ iframe {
 	min-height: 360px;
 }
 
-#main img:not(#news img) {
+#main img:not(.home) {
     -webkit-filter: brightness(0.988);
     max-width: 100%;
 }
