@@ -206,6 +206,7 @@ iframe {
 
 #main img {
     -webkit-filter: brightness(0.988);
+    max-width: 100%;
 }
 
 /*
