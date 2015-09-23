@@ -6,7 +6,7 @@
 <div id="news">
 
 	<div class="item">
-		<img alt="Near Space" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg">
+		<img alt="Near Space" class="home"  src="https://upload.wikimedia.org/wikipedia/commons/8/83/Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg">
 		<a class="text" href="/missions/nearspaceballoon.html">Near-Space Balloon Project</a>
 	</div>
 
@@ -18,7 +18,7 @@
 	</div>
 
 	<div class="item">
-		<img alt="Grinnell College"
+		<img alt="Grinnell College" class="home"
 		src="https://www.grinnell.edu/sites/default/files/styles/front_page_slideshow/public/About%20campus%20shot.jpg?itok=nhtt1ZAs">
 		<a class="text" href="/about">GSEA Launches!</a>
 	</div>
