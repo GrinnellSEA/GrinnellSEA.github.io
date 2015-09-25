@@ -10,6 +10,7 @@ window.main = () ->
 	for el in $$(".subdrop")
 		el.style.display = "none"
 
+	# disable top level click on touchscreens
 	if "ontouchstart" in document.documentElement
 		for link in $$("nav .nav > a:not(.link)")
 			link.style.pointerEvents = "none"
