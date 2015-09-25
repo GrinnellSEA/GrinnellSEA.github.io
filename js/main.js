@@ -1,21 +1,31 @@
 function main() {
+	// set up event handlers
 	els = $$(".mobile .dropdown h3");
 
 	for (var i = 0; i < els.length; i++) {
 		var el = els[i];
-		el.onclick = openSubMenu.bind(null, el.innerHTML);
+		el.onclick = toggleSubMenu.bind(null, el.innerHTML);
 	}	
+
+	// hide all submenus
+	els = $$(".subdrop");
+	for (var i = 0; i < els.length; i++) {
+		els[i].style.display = "none";
+	}
 }
 
-function openSubMenu(name) {
+function toggleSubMenu(name) {
+	// figure out if showing or hiding
+	var show = false;
+	var el = $(".subdrop#s_" + name.toLowerCase());
+	if (el.style.display === "none") show = true;
+
 	// hide all other submenus
 	var menus = $$(".subdrop");
 
 	for (var i = 0; i < menus.length; i++) {
-		var menu = menus[i];
-		menu.style.display = "none";
+		menus[i].style.display = "none";
 	}
 
-	// show correct menu
-	$(".subdrop#s_" + name.toLowerCase()).style.display = "block";
+	if (show) el.style.display = "block";
 }
