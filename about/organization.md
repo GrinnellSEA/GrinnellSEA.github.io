@@ -1,7 +1,6 @@
 ---
+title: GSEA Organization
 ---
-
-# GSEA Organization
 
 ![Top-level Org chart](/assets/org-chart.svg)
 

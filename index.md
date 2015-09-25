@@ -1,7 +1,8 @@
 ---
+title: GSEA
 ---
 
-# The Grinnell Space Exploration Agency
+## The Grinnell Space Exploration Agency
 
 <div id="news">
 
@@ -11,16 +12,17 @@
 	</div>
 
 	<div class="item item-text">
-		<h3>GSEA Blog Posts</h3>
-		{% for post in site.posts limit: 10 %}
-		<a href="{{ post.url }}">{{ post.title }}</a><br />
+		<h3>Recent Blog Posts</h3>
+		{% for post in site.posts limit: 5 %}
+			<a href="{{ post.url }}">{{ post.title }}</a><br />
 		{% endfor %}
+		<a href="/blog" class="more">All posts&hellip;</a>
 	</div>
 
 	<div class="item">
 		<img alt="Grinnell College" class="home"
 		src="https://www.grinnell.edu/sites/default/files/styles/front_page_slideshow/public/About%20campus%20shot.jpg?itok=nhtt1ZAs">
-		<a class="text" href="/about">GSEA Launches!</a>
+		<a class="text" href="/2015/09/22/gsea-launches.html">GSEA Launches!</a>
 	</div>
 
 </div>

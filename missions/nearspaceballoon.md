@@ -1,7 +1,6 @@
 ---
+title: Near-Space Balloon Project
 ---
-
-# Near-Space Balloon Project
 
 <img alt="schematic" src="/assets/overview-diagram.svg" height="">
 

@@ -1,7 +1,6 @@
 ---
+title: GSEA Administration
 ---
-
-# GSEA Administration
 
 ## Mission Budgets
 

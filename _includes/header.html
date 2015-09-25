@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="{{ site.description }}">
 
-		<title>{{ site.name }}</title>
+		<title>{{ page.title }}</title>
 
 		<link rel="icon" type="image/png" href="/assets/favicon.png">
 
@@ -21,7 +21,7 @@
 			</a>
 			<span class="spacer"></span>	
 			<span class="nav big">
-				<a>About</a>
+				<a href="/about">About</a>
 				<div class="dropdown">
 					<a href="/about">GSEA</a>
 					<a href="/about/organization.html">Organization</a>
@@ -29,14 +29,17 @@
 				</div>
 			</span>
 			<span class="nav big">
-				<a>Missions</a>
+				<a href="/missions">Missions</a>
 				<div class="dropdown">
 					<a href="/missions/nearspaceballoon.html">Near-Space Balloon</a>
 					<a href="/missions">All Missions</a>
 				</div>
 			</span>
 			<span class="nav big" style="width: 156px">
-				<a href="/administration">Administration</a>
+				<a href="/administration" class="link">Administration</a>
+			</span>
+			<span class="nav big">
+				<a href="/blog" class="link">Blog</a>
 			</span>
 
 			<span class="nav mobile">
@@ -46,10 +49,14 @@
 					<a href="/about">GSEA</a>
 					<a href="/about/organization.html">Organization</a>
 					<a href="http://www.grinnell.edu">Grinnell College</a>
+					<hr>
 					<h3>Missions</h3>
 					<a href="/missions/nearspaceballoon.html">Near-Space Balloon</a>
 					<a href="/missions">All Missions</a>
-					<h3 style="padding: 0;"><a href="/administration">Administration</a></h3>
+					<hr>
+					<a href="/administration">Administration</a>
+					<hr>
+					<a href="/administration">Blog</a>
 				</div>
 			</span>
 		</nav>

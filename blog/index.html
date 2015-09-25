@@ -1,0 +1,30 @@
+---
+title: Blog
+---
+
+<ul class="nobullets">
+	{% for post in paginator.posts %}
+	<li class="post">
+		<div class="link">
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</div>
+		<div class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</div>
+		<div class="date">Posted {{ post.date | date: '%B %d, %Y' }}</div>
+	</li>
+	{% endfor %}
+</ul>
+
+<!-- Pagination links -->
+<div class="pagination">
+	<span class="paginatorlink">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% endif %}
+	</span>
+  <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+	<span class="paginatorlink">
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% endif %}
+	</span>
+</div>
