@@ -1,6 +1,6 @@
 function main() {
 	// set up event handlers
-	els = $$(".mobile .dropdown h3");
+	var els = $$(".mobile .dropdown h3");
 
 	for (var i = 0; i < els.length; i++) {
 		var el = els[i];
