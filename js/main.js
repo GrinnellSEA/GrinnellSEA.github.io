@@ -12,6 +12,15 @@ function main() {
 	for (var i = 0; i < els.length; i++) {
 		els[i].style.display = "none";
 	}
+
+	// deal with touch devices
+	if ("ontouchstart" in document.documentElement) {
+		var links = $$("nav .nav > a:not(.link)");
+
+		for (var i = 0; i < links.length; i++) {
+			links[i].style.pointerEvents = "none";
+		}
+	}
 }
 
 function toggleSubMenu(name) {

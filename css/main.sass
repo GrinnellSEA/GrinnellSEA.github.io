@@ -46,8 +46,6 @@ nav
 		text-decoration: none
 		font-size: 20px
 		color: white
-		-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-		-webkit-tap-highlight-color: transparent /* For some Androids */
 
 	span.nav:hover
 		background-color: #f00
@@ -90,7 +88,7 @@ nav
 			width: 100%
 			
 			a
-				line-height: 40px
+				line-height: 48px
 				margin: 4px 0
 			h3
 				padding: 0 16px
@@ -117,6 +115,12 @@ nav
 
 		position: absolute
 
+		* 
+			-webkit-touch-callout: none   
+			-webkit-text-size-adjust: none  
+			-webkit-tap-highlight-color: transparent 
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+			-webkit-user-select: none					
 
 /*
  * MAIN CONTENT
@@ -134,6 +138,9 @@ div#main
 	left: 0
 	right: 0
 	bottom: 0
+
+p
+	text-align: justify
 
 a
 	color: #d00
