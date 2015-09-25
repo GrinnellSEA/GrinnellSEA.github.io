@@ -16,6 +16,8 @@ The probe's name is yet to be decided.  Submit your ideas
 
 ## Project files
 
+[Software](https://github.com/GrinnellSEA/NearSpaceBalloon)
+
 [Tenative project
 schedule](https://docs.google.com/spreadsheets/d/1TWXJ5Zj-GaqG0TtZc1NNDKbJ_KkzAh8Y_ZfhpWlblIs/pubhtml?gid=0&single=true)
 
