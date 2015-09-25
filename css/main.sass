@@ -84,17 +84,23 @@ nav
 		display: none
 
 		.dropdown
-			left: -64px !important
-			top: 0 !important
-			overflow: auto
-			max-height: 100vh
-		.dropdown a
-			line-height: 48px
-			margin: 4px 0
-		.dropdown h3
-			padding: 0 16px
-		color: white
-			line-height: 1
+			position: absolute
+			left: 0
+			top: $navbar-height
+			width: 100%
+			
+			a
+				line-height: 40px
+				margin: 4px 0
+			h3
+				padding: 0 16px
+				color: white
+				width: 100%
+				line-height: 1
+				cursor: pointer
+
+			.subdrop
+				display: none
 		
 	@media screen and (max-width: 600px)
 		span.big
@@ -105,6 +111,8 @@ nav
 	@media screen and (max-width: 720px)
 		span.nav > a:not(.link)
 			pointer-events: none
+
+		position: absolute
 
 
 /*
@@ -198,6 +206,9 @@ iframe
 #main img:not(.home)
 	-webkit-filter: brightness(0.988)
 	max-width: 100%
+
+hr
+	border: 1px solid #ddd
 
 ul.nobullets
 	list-style: none
