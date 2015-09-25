@@ -23,6 +23,6 @@ toggleSubMenu = (name) ->
 
 	# hide all other submenus
 	for menu in $$(".subdrop")
-		menu.stle.display = "none"
+		menu.style.display = "none"
 
 	if show then el.style.display = "block"
