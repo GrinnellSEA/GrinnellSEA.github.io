@@ -3,7 +3,7 @@ title: GSEA Administration
 ---
 
 ## Interest Survey
-New members--please fill out [this](https://docs.google.com/forms/d/1hbgW_l3n2HQUzWB5rlXyv5gJFXY0-ZD7rmXqbbgr6tU/viewform) interest survey.
+New members--please fill out [this interest survey](https://docs.google.com/forms/d/1hbgW_l3n2HQUzWB5rlXyv5gJFXY0-ZD7rmXqbbgr6tU/viewform).
 
 ## Mission Budgets
 
