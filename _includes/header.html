@@ -16,6 +16,7 @@
 
 		<!-- JS -->
 		<script src="/js/lib.js"></script>
+		<script type="text/javascript" src="/js/sha256.js"></script>
 		<script src="/js/main.js"></script>
 	</head>
 	<body>
@@ -69,6 +70,12 @@
 					<a href="/blog">Blog</a>
 				</div>
 			</span>
+			<span class="fill"></span>
+			<span class="nav big">
+				<a id="loginlink" href="/login?redirect={{ page.url }}" class="link">Login</a>
+			</span>
 		</nav>
 
+		<noscript><h1 id="jswarning">Please enable JavaScript to view content.</h1></noscript>
+		
 		<div id="main">

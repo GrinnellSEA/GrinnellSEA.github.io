@@ -7,62 +7,19 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 ## Mission Budgets
 
-[Near-Space Balloon Project Budget](/assets/balloon-budget.pdf)I
+[Near-Space Balloon Project Budget](/assets/balloon-budget.pdf)
 
-## Login
 
-<span id="membercontent"></span>
+<div class="membersonly" markdown="1">
 
-<span id="loginform">
-<input type="password" id="password" placeholder="Password" /> 
-<button id="loginbutton">Login</button> <br />
-Stay signed in? 
-<input type="checkbox" checked id="staysignedin" />
-</span>
-<button id="signout" style="display: none">Sign Out</button>
+## Engineering Process
 
-<script type="text/javascript" src="/js/sha256.js"></script>
-<script type="text/javascript">
-	registerFunction(function() {
-		var onlogin = function() {
-				xhr("/administration/membersonly.html", function(content) {
-					$("#membercontent").innerHTML = content;
-				});
+[Engineering Review Request](https://docs.google.com/forms/d/1rvgU1Q-5tRJS6mh8qt5PV8lo366CyKfXid7QELoVsto/viewform?entry.1838288003&entry.2042860130&entry.1221385011=2)
 
-				$("#login").remove();
-				$("#loginform").remove();
-				$("#signout").style.display = "block";
-		};
+[Fabrication Review Request](https://docs.google.com/forms/d/1QeQw7ZxuzQQ0RoGDOHDQfJXoyFkTDgyfyR2t6wkiVfw/viewform?entry.1838288003&entry.2042860130&entry.1221385011=2)
 
-		var checkPassword = function(password) {
-			var correct = "pGN3w+MArM2L4HQODi7aCrWef+L9a6O6WwulvY7B/1U=";
-			var sha = new jsSHA("SHA-256", "TEXT");
-			sha.update(password);
-			var hash = sha.getHash("B64");
-			if (hash === correct) {
-				if ($("#staysignedin").checked) {
-					localStorage.password = password;
-				}
+[Engineering Change Request](https://docs.google.com/forms/d/1vWaz-KfiAfu42Oj9gWVB1eMoYl3n1FJOL2yNSAK2jCo/viewform?entry.1838288003&entry.2042860130&entry.1221385011=2&entry.1192463715&entry.201246930)
 
-				onlogin();
-			}
-		};
+[Engineering Change Review Request](https://docs.google.com/forms/d/1AZo01OFXMKrhsFuEaNnLuYr0UPiT-9FYQSF28qO4Cg8/viewform?entry.2106591035&entry.1565130009&entry.1164283887=2)
 
-		$("#loginbutton").onclick = function() {
-			checkPassword($("#password").value);
-		};
-
-		$("#signout").onclick = function() {
-			localStorage.password = undefined;
-			location.reload();
-		};
-
-		$("#password").onkeypress = function(e) {
-			if (e.keyCode === 13) {
-				$("#loginbutton").click();
-			}
-		};
-
-		checkPassword(localStorage.password);
-	 });
-</script>
+</div>
