@@ -14,10 +14,16 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 ## Engineering Process
 
+### Forms and Documents
+
 [Review Request](https://docs.google.com/forms/d/1yAU-LYgOhWULHwe9Ejq0_dmjwOMEtClFsM5wlTzklH8/viewform?entry.1003946160&entry.548196545&entry.440845126=2)
 
 [Parts Order](https://docs.google.com/forms/d/1hhSpG48cjOC3B4VpkQMxftGJdfarbLL_ZKpN8BTPjto/viewform)
 
 [System Progress Tracking](https://docs.google.com/document/d/1BPysrvO8gSOnd8NBbkP2i5snh8qwPDoDyeyJ6W0BSR4/edit?usp=sharing)
+
+### Resources
+
+[NASA Systems Engineering Handbook](http://www.acq.osd.mil/se/docs/NASA-SP-2007-6105-Rev-1-Final-31Dec2007.pdf)
 
 </div>
