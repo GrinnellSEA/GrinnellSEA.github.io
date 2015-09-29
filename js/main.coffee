@@ -42,21 +42,16 @@ checkPassword = (password) ->
 	if auth then login(auth) else unlogin
 
 window.getAuth = (password) ->
-	c_member = "pGN3w+MArM2L4HQODi7aCrWef+L9a6O6WwulvY7B/1U="
-	c_guest = "noyiSMRKx1kWmCSlaSFA+bJqybLsM6cDXKh5eci+f/I="
-	c_admin = "C2JnbXBmzVpnlggY3xqiDXIENYfNrqoFqcUyjNJH9v0="
 	sha = new jsSHA("SHA-256", "TEXT")
 	sha.update(password)
-	hash = sha.getHash("B64")
+	phash = sha.getHash("B64")
 
-	if hash == c_member
-		return "r_member"
-	else if hash == c_guest
-		return "r_guest"
-	else if hash == c_admin
-		return "r_admin"
-	else
-		return false
+	for level, lhash of PASSWORDS
+		if phash == lhash
+			return "r_" + level
+	
+	# no matches
+	return false
 
 login = (auth) ->
 	el = $("#loginlink")	

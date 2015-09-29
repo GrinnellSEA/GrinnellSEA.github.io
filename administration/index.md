@@ -38,7 +38,13 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 <input type="text" placeholder="Password" id="pass" /> 
 <button id="generate">Generate</button> <br />
-<span id="output"></span>
+<span id="output"></span> <br />
+<button>
+<a
+href="https://github.com/GrinnellSEA/GrinnellSEA.github.io/edit/master/js/logindata.js">
+Edit Passwords
+</a>
+</button>
 
 <script type="text/javascript">
 	registerFunction(function() {
