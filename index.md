@@ -26,7 +26,7 @@ title: GSEA
 
 	<div class="item">
 		<img alt="Grinnell College" class="home"
-		src="https://www.grinnell.edu/sites/default/files/styles/front_page_slideshow/public/About%20campus%20shot.jpg?itok=nhtt1ZAs" style="width: 400px";>
+		src="https://www.grinnell.edu/sites/default/files/styles/front_page_slideshow/public/About%20campus%20shot.jpg?itok=nhtt1ZAs" style="width: 400px;">
 		<a class="text" href="/2015/09/22/gsea-launches.html">GSEA Launches!</a>
 	</div>
 
