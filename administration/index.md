@@ -2,14 +2,14 @@
 title: GSEA Administration
 ---
 
-## Interest Survey
+<div class="restricted r_member r_admin" markdown="1">
+
+## Member Announcements
+
+### Interest Survey
 New members---please fill out [this interest survey](https://docs.google.com/forms/d/1hbgW_l3n2HQUzWB5rlXyv5gJFXY0-ZD7rmXqbbgr6tU/viewform).
 
-## Mission Budgets
-
-[Near-Space Balloon Project Budget](/assets/balloon-budget.pdf)
-
-
+</div>
 <div class="restricted r_guest r_member r_admin" markdown="1">
 
 ## Engineering Process
@@ -53,7 +53,10 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 ### [Personnel Data](https://goo.gl/CJHUNI)
 
-
+</div>
 </div>
 
-</div>
+
+## Mission Budgets
+
+[Near-Space Balloon Project Budget](/assets/balloon-budget.pdf)
