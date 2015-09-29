@@ -14,12 +14,8 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 ## Engineering Process
 
-[Engineering Review Request](https://docs.google.com/forms/d/1rvgU1Q-5tRJS6mh8qt5PV8lo366CyKfXid7QELoVsto/viewform?entry.1838288003&entry.2042860130&entry.1221385011=2)
+[Review Request](https://docs.google.com/forms/d/1yAU-LYgOhWULHwe9Ejq0_dmjwOMEtClFsM5wlTzklH8/viewform?entry.1003946160&entry.548196545&entry.440845126=2)
 
-[Fabrication Review Request](https://docs.google.com/forms/d/1QeQw7ZxuzQQ0RoGDOHDQfJXoyFkTDgyfyR2t6wkiVfw/viewform?entry.1838288003&entry.2042860130&entry.1221385011=2)
-
-[Engineering Change Request](https://docs.google.com/forms/d/1vWaz-KfiAfu42Oj9gWVB1eMoYl3n1FJOL2yNSAK2jCo/viewform?entry.1838288003&entry.2042860130&entry.1221385011=2&entry.1192463715&entry.201246930)
-
-[Engineering Change Review Request](https://docs.google.com/forms/d/1AZo01OFXMKrhsFuEaNnLuYr0UPiT-9FYQSF28qO4Cg8/viewform?entry.2106591035&entry.1565130009&entry.1164283887=2)
+[Parts Order](https://docs.google.com/forms/d/1hhSpG48cjOC3B4VpkQMxftGJdfarbLL_ZKpN8BTPjto/viewform)
 
 </div>
