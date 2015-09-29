@@ -5,304 +5,309 @@ $font-stack: "Lato", sans-serf
 $navbar-height: 56px
 
 body
-  background-color: #fcfcfc
-  font-family: $font-stack
-  margin: 0
+	background-color: #fcfcfc
+	font-family: $font-stack
+	margin: 0
 
 /*
  * NAVBAR
  */
 
 nav
-  min-width: 100%
-  height: $navbar-height
-  background-color: #d00
-  position: fixed
-  display: flex
-  flex-direction: row
-  z-index: 10
+	min-width: 100%
+	height: $navbar-height
+	background-color: #d00
+	position: fixed
+	display: flex
+	flex-direction: row
+	z-index: 10
 
-  a
-    display: inline-block
+	a
+		display: inline-block
 
-  a#brand
-    margin-left: 8px
-  a#brand img
-    width: $navbar-height
-    height: $navbar-height
+	a#brand
+		margin-left: 8px
+	a#brand img
+		width: $navbar-height
+		height: $navbar-height
 
-  .spacer
-    width: 24px
+	.spacer
+		width: 24px
 
-  span.nav
-    padding: 0 16px
-    width: 80px
-    text-align: center
-    line-height: $navbar-height - 4px
-    transition: all 100ms
-    flex-shrink: 0
+	span.nav
+		padding: 0 16px
+		width: 80px
+		text-align: center
+		line-height: $navbar-height - 4px
+		transition: all 100ms
+		flex-shrink: 0
 
-  span.nav > a
-    text-decoration: none
-    font-size: 20px
-    color: white
+	span.nav > a
+		text-decoration: none
+		font-size: 20px
+		color: white
 
-  span.nav:hover
-    background-color: #f00
+	span.nav:hover
+		background-color: #f00
 
-  span.nav .dropdown
-    display: none
-    background-color: #f00
-    box-sizing: border-box
-    position: relative
-    left: -16px
-    top: -8px
-    box-sizing: border-box
-    padding-top: 4px
-    width: 296px
-    text-align: left
-    box-shadow: 6px 3px 12px -4px rgba(0, 0, 0, 0.2), -6px 3px 12px -4px rgba(0, 0, 0, 0.2), 0 6px 12px -8px rgba(0, 0, 0, 0.2)
+	span.nav .dropdown
+		display: none
+		background-color: #f00
+		box-sizing: border-box
+		position: relative
+		left: -16px
+		top: -8px
+		box-sizing: border-box
+		padding-top: 4px
+		width: 296px
+		text-align: left
+		box-shadow: 6px 3px 12px -4px rgba(0, 0, 0, 0.2), -6px 3px 12px -4px rgba(0, 0, 0, 0.2), 0 6px 12px -8px rgba(0, 0, 0, 0.2)
 
-    a
-      text-decoration: none
-      color: white
-      font-size: 16px
-      display: block
-      padding: 0 16px
-      margin: 8px 0
-      line-height: 48px
+		a
+			text-decoration: none
+			color: white
+			font-size: 16px
+			display: block
+			padding: 0 16px
+			margin: 8px 0
+			line-height: 48px
 
-    a:hover
-      background-color: #c00
+		a:hover
+			background-color: #c00
 
-  span.nav:hover .dropdown
-    display: block
+	span.nav:hover .dropdown
+		display: block
 
-  span.mobile
-    display: none
+	span.mobile
+		display: none
 
-    .dropdown
-      position: absolute
-      left: 0
-      top: $navbar-height
-      width: 100%
-      
-      a
-        line-height: 48px
-        margin: 4px 0
-      h3
-        padding: 0 16px
-        color: white
-        width: 100%
-        line-height: 1
-        box-sizing: border-box
-        cursor: pointer
+		.dropdown
+			position: absolute
+			left: 0
+			top: $navbar-height
+			width: 100%
+			
+			a
+				line-height: 48px
+				margin: 4px 0
+			h3
+				padding: 0 16px
+				color: white
+				width: 100%
+				line-height: 1
+				box-sizing: border-box
+				cursor: pointer
 
-      h3:after
-        content: "\25bc"
-        float: right
-        position: relative
-        right: 2em
-  
-  span.fill
-    flex-grow: 1
-    
-  @media screen and (max-width: 600px)
-    span.big
-      display: none
-    span.mobile
-      display: block
+			h3:after
+				content: "\25bc"
+				float: right
+				position: relative
+				right: 2em
+	
+	span.fill
+		flex-grow: 1
+		
+	@media screen and (max-width: 600px)
+		span.big
+			display: none
+		span.mobile
+			display: block
 
-  @media screen and (max-width: 720px)
-    span.nav > a:not(.link)
-      pointer-events: none
+	@media screen and (max-width: 720px)
+		span.nav > a:not(.link)
+			pointer-events: none
 
-    position: absolute
+		position: absolute
 
-    * 
-      -webkit-touch-callout: none   
-      -webkit-text-size-adjust: none  
-      -webkit-tap-highlight-color: transparent 
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-      -webkit-user-select: none         
+		* 
+			-webkit-touch-callout: none		
+			-webkit-text-size-adjust: none	
+			-webkit-tap-highlight-color: transparent 
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+			-webkit-user-select: none					
 
 /*
  * MAIN CONTENT
  */
 
 div#main
-  position: absolute
-  top: $navbar-height
-  padding: 0 24px
-  max-width: 960px
-  width: 100%
-  box-sizing: border-box
-  line-height: 1.4
-  margin: 0 auto
-  left: 0
-  right: 0
-  bottom: 0
+	position: absolute
+	top: $navbar-height
+	padding: 0 24px
+	max-width: 960px
+	width: 100%
+	box-sizing: border-box
+	line-height: 1.4
+	margin: 0 auto
+	left: 0
+	right: 0
+	bottom: 0
 
 #jswarning
-  position: absolute
-  margin: 0
-  padding: 48px
-  z-index: 100
-  background-color: #d00
-  color: white
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
+	position: absolute
+	margin: 0
+	padding: 48px
+	z-index: 100
+	background-color: #d00
+	color: white
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
 
 p
-  text-align: justify
+	text-align: justify
 
 a
-  color: #d00
-  text-decoration: none
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-  -webkit-tap-highlight-color: transparent /* For some Androids */
+	color: #d00
+	text-decoration: none
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+	-webkit-tap-highlight-color: transparent /* For some Androids */
 a:hover
-  text-decoration: underline
+	text-decoration: underline
 
 div#news
-  width: 100%
-  display: flex
-  flex-direction: row
-  flex-wrap: wrap
+	width: 100%
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
 
-  .item
-    margin: 12px
-    position: relative
-    flex-grow: 1
-    min-width: 240px
-    height: 320px
-    overflow: hidden
-    box-sizing: border-box
-    background-color: #222
+	.item
+		margin: 12px
+		position: relative
+		flex-grow: 1
+		min-width: 240px
+		height: 320px
+		overflow: hidden
+		box-sizing: border-box
+		background-color: #222
 
-    img
-      display: block
-      min-width: 100%
-      max-height: 100%
-    .text
-      position: absolute
-      display: block
-      bottom: 0
-      padding: 8px
-      width: 100%
-      box-sizing: border-box
-      font-size: 20px
-      font-weight: bold
-      background-color: rgba(220, 20, 20, 0.85)
-      color: white
+		img
+			display: block
+			min-width: 100%
+			max-height: 100%
+		.text
+			position: absolute
+			display: block
+			bottom: 0
+			padding: 8px
+			width: 100%
+			box-sizing: border-box
+			font-size: 20px
+			font-weight: bold
+			background-color: rgba(220, 20, 20, 0.85)
+			color: white
 
-  .item-text
-    font-size: 18px
-    background-color: #eee
-    padding: 0 16px
-    line-height: 1.8
-    max-width: 360px
-    box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.05)
+	.item-text
+		font-size: 18px
+		background-color: #eee
+		padding: 0 16px
+		line-height: 1.8
+		max-width: 360px
+		box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.05)
 
-    a 
-      color: #a00
-      padding-left: 1em
-      text-indent: -1em
-      display: inline-block
-      line-height: 1.2
+		a 
+			color: #a00
+			padding-left: 1em
+			text-indent: -1em
+			display: inline-block
+			line-height: 1.2
 
-    a.more
-      color: #777
-      text-transform: uppercase
-      font-size: 75%
-      margin: 1em
+		a.more
+			color: #777
+			text-transform: uppercase
+			font-size: 75%
+			margin: 1em
 
-  @media screen and (max-width: 900px)
-    .item-text
-      max-width: initial
+	@media screen and (max-width: 900px)
+		.item-text
+			max-width: initial
 
 
 iframe
-  width: 100%
-  border: none
-  min-height: 360px
+	width: 100%
+	border: none
+	min-height: 360px
 
 #main img:not(.home)
-  -webkit-filter: brightness(0.988)
-  max-width: 100%
+	-webkit-filter: brightness(0.988)
+	max-width: 100%
 
 hr
-  border: 1px solid #ddd
+	border: 1px solid #ddd
 
 ul.nobullets
-  list-style: none
-  padding: 0
+	list-style: none
+	padding: 0
 
 li.post
-  margin: 16px 0
+	margin: 16px 0
 
-  > *
-    margin: 4px
+	> *
+		margin: 4px
 
-  .link
-    font-weight: bold
+	.link
+		font-weight: bold
 
-  .date
-    color: #aaa
-    font-style: italic
-    margin-left: 2em
+	.date
+		color: #aaa
+		font-style: italic
+		margin-left: 2em
 
 .pagination
-  text-align: center
-  color: #aaa
-  text-transform: uppercase
+	text-align: center
+	color: #aaa
+	text-transform: uppercase
 
-  a
-    display: inline-block
-  
-  .paginatorlink
-    display: inline-block
-    width: 5.5em
-    margin: 0.75em
+	a
+		display: inline-block
+	
+	.paginatorlink
+		display: inline-block
+		width: 5.5em
+		margin: 0.75em
 
 .restricted
-  display: none
+	display: none
 
 input
-  font-size: 16px
-  padding:  4px
-  outline: none
-  border: 1px solid #d00
-  font-family: $font-stack
+	font-size: 16px
+	padding:	4px
+	outline: none
+	border: 1px solid #d00
+	font-family: $font-stack
 
 button
-  border: none
-  outline: none
-  padding: 6px 12px
-  margin: 8px
-  font-size: 16px
-  background-color: #d00
-  color: white
-  border-radius: 2px
-  font-family: $font-stack
-  transition: all 300ms
+	border: none
+	outline: none
+	padding: 6px 12px
+	margin: 8px
+	font-size: 16px
+	background-color: #d00
+	color: white
+	border-radius: 2px
+	font-family: $font-stack
+	transition: all 300ms
 
 button:hover
-  background-color: #e00
+	background-color: #e00
 
+button > a
+	color: white
+
+button > a:hover
+	text-decoration: none
 
 /*
  * FOOTER
  */
 
 footer
-  color: #aaa
-  text-align: center
-  font-size: 10pt
-  margin-top: 16px
-  display: block
-  padding: 8px
-  width: 100%
+	color: #aaa
+	text-align: center
+	font-size: 10pt
+	margin-top: 16px
+	display: block
+	padding: 8px
+	width: 100%
 
