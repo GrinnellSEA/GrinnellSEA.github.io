@@ -16,7 +16,7 @@ Stay signed in?
 			}
 			if (getAuth(password)) {
 				// redirect to previous page
-				location.href = location.search.split("=")[1]; 				
+				location.href = location.search.split("=")[1] || "/"; 				
 			}
 		};
 
