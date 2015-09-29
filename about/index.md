@@ -22,3 +22,7 @@ Learn more about it on its [mission page](/missions/nearspaceballoon.html).
 
 All code created by the GSEA for its missions is open-source and available [on
 Github](http://www.github.com/GrinnellSEA/).
+
+## Contact Us
+
+**E-mail**: <a href="mailto:gsea@grinnell.edu">[gsea]</a> <br />
