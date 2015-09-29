@@ -10,15 +10,19 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 [Near-Space Balloon Project Budget](/assets/balloon-budget.pdf)
 
 
-<div class="membersonly" markdown="1">
+<div class="restricted r_guest r_member r_admin" markdown="1">
 
 ## Engineering Process
 
 ### Forms and Documents
 
+<div class="restricted r_member r_admin" markdown="1">
+
 [Review Request](https://docs.google.com/forms/d/1yAU-LYgOhWULHwe9Ejq0_dmjwOMEtClFsM5wlTzklH8/viewform?entry.1003946160&entry.548196545&entry.440845126=2)
 
 [Parts Order](https://docs.google.com/forms/d/1hhSpG48cjOC3B4VpkQMxftGJdfarbLL_ZKpN8BTPjto/viewform)
+
+</div>
 
 [System Progress Tracking](https://docs.google.com/document/d/1BPysrvO8gSOnd8NBbkP2i5snh8qwPDoDyeyJ6W0BSR4/edit?usp=sharing)
 

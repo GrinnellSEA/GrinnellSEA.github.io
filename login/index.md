@@ -9,23 +9,15 @@ Stay signed in?
 
 <script type="text/javascript">
 	registerFunction(function() {
-		var checkPassword = function(password) {
-			var correct = "pGN3w+MArM2L4HQODi7aCrWef+L9a6O6WwulvY7B/1U=";
-			var sha = new jsSHA("SHA-256", "TEXT");
-			sha.update(password);
-			var hash = sha.getHash("B64");
-			if (hash === correct) {
-				// redirect to previous page
-				location.href = location.search.split("=")[1]; 				
-			}
-		};
-
 		$("#loginbutton").onclick = function() {
 			var password = $("#password").value;
 			if ($("#staysignedin").checked) {
 				localStorage.password = password;
 			}
-			checkPassword(password);
+			if (getAuth(password)) {
+				// redirect to previous page
+				location.href = location.search.split("=")[1]; 				
+			}
 		};
 
 		$("#password").onkeypress = function(e) {
