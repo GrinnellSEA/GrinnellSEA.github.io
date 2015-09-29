@@ -5,7 +5,7 @@ registered = []
 
 window.main = () ->
 	# sign in, etc.	
-	checkPassword(localStorage.password)
+	checkPassword(localStorage.password || "")
 
 	# set up event handlers
 	for el in $$(".mobile .dropdown h3")
