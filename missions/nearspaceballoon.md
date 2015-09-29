@@ -10,14 +10,14 @@ video as well as record temperature and pressure data along the way.
 
 ## Name
 
-The probe&rsquo;s name is yet to be decided.  Submit your ideas
-[here](/2015/09/22/naming.html).
-
-<div class="restricted r_guest r_member r_admin" markdown="1">
+The probe&rsquo;s name will be decided through an open public competition.
+Submit your ideas [here](/2015/09/22/naming.html).
 
 ## Project files
 
 [Software](https://github.com/GrinnellSEA/NearSpaceBalloon)
+
+<div class="restricted r_guest r_member r_admin" markdown="1">
 
 [Tenative project
 schedule](https://docs.google.com/spreadsheets/d/1TWXJ5Zj-GaqG0TtZc1NNDKbJ_KkzAh8Y_ZfhpWlblIs/pubhtml?gid=0&single=true)
