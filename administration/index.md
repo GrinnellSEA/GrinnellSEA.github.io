@@ -18,4 +18,6 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 [Parts Order](https://docs.google.com/forms/d/1hhSpG48cjOC3B4VpkQMxftGJdfarbLL_ZKpN8BTPjto/viewform)
 
+[System Progress Tracking](https://docs.google.com/document/d/1BPysrvO8gSOnd8NBbkP2i5snh8qwPDoDyeyJ6W0BSR4/edit?usp=sharing)
+
 </div>
