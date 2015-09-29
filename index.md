@@ -7,7 +7,7 @@ title: GSEA
 <div id="news">
 
 	<div class="item">
-		<img alt="Martian Water" class="home" src="http://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/15-195_perspective_2.jpg?itok=QdAbNE7E">
+		<img alt="Martian Water" class="home" src="http://i.space.com/images/i/000/011/377/i02/mars-water-signs-newton-crater-gullies-110804.jpg?1312483871">
 		<a class="text" href="/2015/09/29/water-mars.html">NASA Finds Liquid Water on Mars</a>
 	</div>
 	
