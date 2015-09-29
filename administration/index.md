@@ -30,4 +30,30 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 [NASA Systems Engineering Handbook](http://www.acq.osd.mil/se/docs/NASA-SP-2007-6105-Rev-1-Final-31Dec2007.pdf)
 
+<div class="restricted r_admin" markdown="1">
+
+## Administration
+
+### Generate Password Hashes
+
+<input type="text" placeholder="Password" id="pass" /> 
+<button id="generate">Generate</button> <br />
+<span id="output"></span>
+
+<script type="text/javascript">
+	registerFunction(function() {
+		$("button#generate").onclick = function() {
+			var pass = $("#pass").value;
+			var sha = new jsSHA("SHA-256", "TEXT");
+			sha.update(pass);
+			$("#output").innerHTML = sha.getHash("B64");
+		};
+	});
+</script>
+
+### [Personnel Data](https://goo.gl/CJHUNI)
+
+
+</div>
+
 </div>
