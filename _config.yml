@@ -12,3 +12,5 @@ defaults:
         values:
             layout: default
             excerpt_separator: <!--END_EXCERPT-->
+
+exclude: [vendor]
