@@ -1,5 +1,6 @@
 ---
 title: First Meeting
+author: Cory McCartan
 ---
 
 GSEA will be having its first meeting **Monday, October 5** in **Noyce Room 1022**.  

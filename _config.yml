@@ -11,6 +11,12 @@ defaults:
             path: ""
         values:
             layout: default
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: blog
             excerpt_separator: <!--END_EXCERPT-->
 
 exclude: [vendor]

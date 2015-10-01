@@ -1,5 +1,6 @@
 ---
 title: GSEA Launches!
+author: Cory McCartan
 ---
 
 The Grinnell Space Exploration Agency launched today.  The first mission will

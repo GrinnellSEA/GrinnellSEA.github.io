@@ -1,0 +1,10 @@
+{% include header.html %}
+<h1>
+	{{ page.title }}
+	<div class='shareaholic-canvas' data-app='share_buttons' data-app-id='21038030'></div>
+</h1>
+<span class="blogdate">
+	Posted on {{ page.date | date: '%B %d, %Y' }} by {{ page.author }}
+</span>
+{{ content }}
+{% include footer.html %}

@@ -9,7 +9,7 @@ title: Blog
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</div>
 		<div class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</div>
-		<div class="date">Posted {{ post.date | date: '%B %d, %Y' }}</div>
+		<div class="date">Posted on {{ post.date | date: '%B %d, %Y' }}</div>
 	</li>
 	{% endfor %}
 </ul>

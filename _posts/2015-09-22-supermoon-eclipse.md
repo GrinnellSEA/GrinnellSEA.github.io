@@ -1,5 +1,6 @@
 ---
 title: Join GSEA for the Supermoon Eclipse on Sunday
+author: Cory McCartan
 ---
 
 This Sunday, September 29, we will have the opportunity to see a rare

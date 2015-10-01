@@ -1,5 +1,6 @@
 ---
 title: NASA Finds Liquid Water on Mars
+author: Cory McCartan
 ---
 
 NASA announced Monday that their scientists had found strong evidence of liquid
