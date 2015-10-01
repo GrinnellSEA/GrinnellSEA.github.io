@@ -19,4 +19,4 @@ defaults:
             layout: blog
             excerpt_separator: <!--END_EXCERPT-->
 
-exclude: [vendor]
+exclude: [vendor, script]
