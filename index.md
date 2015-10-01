@@ -6,6 +6,12 @@ title: GSEA
 
 <div id="news">
 
+	<div class="item"
+		<img alt="Banner" class="home" src="/assets/banner.svg">
+		<a class="text" href="/2015/10/01/first-meeting.html">GSEA First
+		Meeting</a>
+	</div>
+
 	<div class="item">
 		<img alt="Martian Water" class="home" src="http://i.space.com/images/i/000/011/377/i02/mars-water-signs-newton-crater-gullies-110804.jpg?1312483871">
 		<a class="text" href="/2015/09/29/water-mars.html">NASA Finds Liquid Water on Mars</a>
