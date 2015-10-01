@@ -6,7 +6,7 @@ title: GSEA
 
 <div id="news">
 
-	<div class="item"
+	<div class="item">
 		<img alt="Banner" class="home" src="/assets/banner.svg">
 		<a class="text" href="/2015/10/01/first-meeting.html">GSEA First
 		Meeting</a>
