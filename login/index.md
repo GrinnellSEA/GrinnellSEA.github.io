@@ -4,6 +4,7 @@ title: Login
 
 <input type="password" id="password" placeholder="Password" /> 
 <button id="loginbutton">Login</button> <br />
+<span id="message"></span>
 Stay signed in? 
 <input type="checkbox" checked id="staysignedin" />
 
@@ -16,7 +17,10 @@ Stay signed in?
 			}
 			if (getAuth(password)) {
 				// redirect to previous page
-				location.href = location.search.split("=")[1] || "/"; 				
+				location.href = location.search.split("=")[1] || "/"; 	
+			} else {
+				$("#message").style.display = "block";
+				$("#message").innerHTML = "Password incorrect.";
 			}
 		};
 
