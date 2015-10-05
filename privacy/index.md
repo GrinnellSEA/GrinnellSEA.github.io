@@ -22,14 +22,14 @@ name ("Personal Information").
 ## Log Data
 Like many site operators, we collect information that your browser sends
 whenever you visit our Site ("Log Data"). This Log Data may include information
-such as your computer&rsquote;s Internet Protocol ("IP") address, browser type,
+such as your computer&rsquo;s Internet Protocol ("IP") address, browser type,
 browser version, the pages of our Site that you visit, the time and date of
 your visit, the time spent on those pages and other statistics.
 
 Cookies
 Cookies are files with small amount of data, which may include an anonymous
 unique identifier.  Cookies are sent to your browser from a web site and stored
-on your computer&rsquote;s hard drive.  Like many sites, we use "cookies" to
+on your computer&rsquo;s hard drive.  Like many sites, we use "cookies" to
 collect information. You can instruct your browser to refuse all cookies or to
 indicate when a cookie is being sent.
 
