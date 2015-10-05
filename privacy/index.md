@@ -27,12 +27,6 @@ on your computer&rsquo;s hard drive.  Like many sites, we use "cookies" to
 collect information. You can instruct your browser to refuse all cookies or to
 indicate when a cookie is being sent.
 
-## Security
-The security of your Personal Information is important to us, but remember that
-no method of transmission over the Internet, or method of electronic storage,
-is 100% secure. While we strive to use commercially acceptable means to protect
-your Personal Information, we cannot guarantee its absolute security.
-
 ## Changes To This Privacy Policy
 The Grinnell Space Exploration Agency may update this Privacy Policy from time
 to time. We will notify you of any changes by posting the new Privacy Policy on
