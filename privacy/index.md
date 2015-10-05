@@ -2,7 +2,7 @@
 title: GSEA Privacy Policy
 ---
 
-This privacy policy was last modified on October 5, 2015.
+*This privacy policy was last modified on October 5, 2015.*
 
 The Grinnell Space Exploration Agency ("us", "we", or "our") operates
 `http://grinnellsea.github.io` (the "Site").  This page informs you of our
@@ -12,12 +12,6 @@ we receive from users of the Site.
 We use your Personal Information only for providing and improving the Site. By
 using the Site, you agree to the collection and use of information in
 accordance with this policy.  
-
-## Information Collection And Use
-While using our Site, we may ask you to provide us with certain personally
-identifiable information that can be used to contact or identify you.
-Personally identifiable information may include, but is not limited to your
-name ("Personal Information").
 
 ## Log Data
 Like many site operators, we collect information that your browser sends
@@ -47,4 +41,4 @@ changes.
 
 ## Contact Us
 If you have any questions about this Privacy Policy, please contact us at
-<gsea@grinnell.edu>
+<gsea@grinnell.edu>.
