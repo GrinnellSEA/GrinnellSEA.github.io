@@ -8,8 +8,7 @@ title: GSEA
 
 	<div class="item">
 		<img alt="Banner" class="home" src="/assets/banner-notext.svg" style="height: 100%">
-		<a class="text" href="/2015/10/01/first-meeting.html">GSEA First
-		Meeting</a>
+		<a class="text" href="/2015/10/06/meeting-schedule.html">GSEA Meetings</a>
 	</div>
 
 	<div class="item">
