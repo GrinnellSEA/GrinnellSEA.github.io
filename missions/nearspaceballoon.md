@@ -19,14 +19,14 @@ Submit your ideas [here](/2015/09/22/naming.html).
 
 <div class="restricted r_guest r_member r_admin" markdown="1">
 
+[Systems Engineering Document](https://docs.google.com/document/d/14VR2ETtxh1yiKK5IgwzH1H8sK8PScp6Wprmbo-aooMg/edit?usp=sharing)
+
 [Tenative project
 schedule](https://docs.google.com/spreadsheets/d/1TWXJ5Zj-GaqG0TtZc1NNDKbJ_KkzAh8Y_ZfhpWlblIs/pubhtml?gid=0&single=true)
 
 [Bill of
-Materials
-Draft](https://docs.google.com/spreadsheets/d/1j_JqA0sTVpxmT0K8u04GUVnD9J1U0fGas19MfduKVpY/pubhtml?gid=919186201&amp;single=true&amp;widget=true&amp;headers=false)
+Materials](https://docs.google.com/spreadsheets/d/1j_JqA0sTVpxmT0K8u04GUVnD9J1U0fGas19MfduKVpY/pubhtml?gid=919186201&amp;single=true&amp;widget=true&amp;headers=false)
 
-[Radio Transmission Protocol
-Draft](https://docs.google.com/document/d/1k0QxupVQxysimdQDeps3NqDQKYf1grW0MGYjBPiKl7M/pub?embedded=true)
+[Radio Transmission Protocol](https://docs.google.com/document/d/1k0QxupVQxysimdQDeps3NqDQKYf1grW0MGYjBPiKl7M/pub?embedded=true)
 
 </div>
