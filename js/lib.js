@@ -47,6 +47,13 @@ function xhr(arg1, arg2) {
 		callback = arg2;
 	}
 
+	arr = url.split("?");
+	url = arr[0];
+	data = "";
+	if (arr.length > 1) {
+		data = arr[1];
+	}
+
 	request.onload = function(e) {
 		if (request.readyState === 4) {
 			callback(request.response);
@@ -55,5 +62,9 @@ function xhr(arg1, arg2) {
 
 	request.open(method, url, true);
 	request.responseType = type;
-	request.send();
+	if (method === "GET") {
+		request.send();
+	} else {
+		request.send(data);
+	}
 }

@@ -34,30 +34,9 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 ## Administration
 
-### Generate Password Hashes
+[Change Passwords](/administration/passwordchange.html)
 
-<input type="text" placeholder="Password" id="pass" /> 
-<button id="generate">Generate</button> <br />
-<span id="output"></span> <br />
-<button>
-<a
-href="https://github.com/GrinnellSEA/GrinnellSEA.github.io/edit/master/js/logindata.js">
-Edit Passwords
-</a>
-</button>
-
-<script type="text/javascript">
-	registerFunction(function() {
-		$("button#generate").onclick = function() {
-			var pass = $("#pass").value;
-			var sha = new jsSHA("SHA-256", "TEXT");
-			sha.update(pass);
-			$("#output").innerHTML = sha.getHash("B64");
-		};
-	});
-</script>
-
-### [Personnel Data](https://goo.gl/CJHUNI)
+[Personnel Data](https://goo.gl/CJHUNI)
 
 </div>
 </div>
