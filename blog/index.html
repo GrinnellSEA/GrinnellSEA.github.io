@@ -2,6 +2,14 @@
 title: Blog
 ---
 
+<div class="restricted r_admin">
+	<button>
+		<a href="/blog/newpost/">
+			New Post
+		</a>
+	</button>
+</div>
+
 <ul class="nobullets">
 	{% for post in paginator.posts %}
 	<li class="post">
@@ -13,14 +21,6 @@ title: Blog
 	</li>
 	{% endfor %}
 </ul>
-
-<div class="restricted r_admin">
-	<button>
-		<a href="/blog/newpost/">
-			New Post
-		</a>
-	</button>
-</div>
 
 <!-- Pagination links -->
 <div class="pagination">
