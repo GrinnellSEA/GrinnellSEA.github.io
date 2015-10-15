@@ -36,13 +36,15 @@ registerFunction ->
 				"Changed #{account} password", LOGF)
 		catch error
 
-		if getAuth(old) == "r_admin" # update OAuth encryption
+		if getAuth(abc) == "r_admin" # update OAuth encryption
 			encr = sjcl.encrypt(new1, decrypt(token_encrypted, old, LOGF))
 			try 
 				repo.write("master", "login/oauth.json", encr, \
 					"Updated OAuth with password change", LOGF)
 			catch error
 
+		if old == localStorage.password
+			localStorage.password = new1
 
 		$("form").innerHTML = "Password Changed."
 

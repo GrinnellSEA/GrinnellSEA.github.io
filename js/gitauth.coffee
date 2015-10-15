@@ -4,7 +4,7 @@
 window.token_encrypted = ""
 
 xhr("/login/oauth.json", (d) ->
-	window.token_encrypted = d)
+	window.token_encrypted = JSON.parse(d))
 
 window.getRepository = (err) ->
 	github = new Github(
@@ -18,7 +18,7 @@ window.getRepository = (err) ->
 window.decrypt = (encrypted, password, err) ->
 	if password
 		try
-			return sjcl.decrypt(password, encrypted)
+			return sjcl.decrypt(password, JSON.stringify(encrypted))
 		catch error
 			err "Not authorized."
 	else
