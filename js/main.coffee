@@ -39,11 +39,12 @@ toggleSubMenu = (name) ->
 
 checkPassword = (password) ->
 	xhr("/login/data.json", (data) -> 
-		auth = getAuth(password, JSON.parse(data))
+		window.PASSWORDS = JSON.parse(data)
+		auth = getAuth(password)
 		if auth then login(auth) else unlogin
 	)
 
-window.getAuth = (password, PASSWORDS) ->
+window.getAuth = (password) ->
 	sha = new jsSHA("SHA-256", "TEXT")
 	sha.update(password)
 	phash = sha.getHash("B64")
