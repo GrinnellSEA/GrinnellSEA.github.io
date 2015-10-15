@@ -25,13 +25,13 @@ title: GSEA
 	</div>
 
 	<div class="item">
-		<img alt="Near Space" class="home"  src="https://upload.wikimedia.org/wikipedia/commons/8/83/Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg">
+		<img alt="Near Space" class="home" lazyload src="https://upload.wikimedia.org/wikipedia/commons/8/83/Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg">
 		<a class="text" href="/missions/nearspaceballoon.html">Near-Space Balloon Project</a>
 	</div>
 
 	<div class="item">
 		<img alt="Grinnell College" class="home"
-		src="/assets/newsreel/gates_tower.jpg">
+		src="/assets/newsreel/gates_tower.jpg" lazyload>
 		<a class="text" href="/2015/09/22/gsea-launches.html">GSEA Launches!</a>
 	</div>
 

@@ -21,7 +21,7 @@ title: Change Passwords
 
 </form>
 
-<script src="/js/github.min.js" async></script>
-<script src="/js/gitauth.js" async></script>
-<script src="/js/changepassword.js"></script>
-<script src="/js/sjcl.js" async></script>
+<script src="/js/github.min.js" async defer></script>
+<script src="/js/gitauth.js" async defer></script>
+<script src="/js/changepassword.js" async defer></script>
+<script src="/js/sjcl.js" async defer></script>

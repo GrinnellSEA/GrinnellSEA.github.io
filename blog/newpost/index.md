@@ -8,8 +8,8 @@ title: New Blog Post
 <textarea placeholder="Post text" id="postText"></textarea> <br />
 <button id="submit">Post</button>
 
-<script type="text/javascript" async src="/js/github.min.js"></script>
-<script type="text/javascript" async src="/js/gitauth.js"></script>
-<script type="text/javascript" src="/js/newblogpost.js"></script>
-<script type="text/javascript" async src="/js/sjcl.js"></script>
+<script type="text/javascript" async defer src="/js/github.min.js"></script>
+<script type="text/javascript" async defer src="/js/gitauth.js"></script>
+<script type="text/javascript" async defer src="/js/newblogpost.js"></script>
+<script type="text/javascript" async defer src="/js/sjcl.js"></script>
 </form>
