@@ -38,10 +38,12 @@ toggleSubMenu = (name) ->
 	if show then el.style.display = "block"
 
 checkPassword = (password) ->
-	auth = getAuth(password)
-	if auth then login(auth) else unlogin
+	xhr("/login/data.json", (data) -> 
+		auth = getAuth(password, JSON.parse(data))
+		if auth then login(auth) else unlogin
+	)
 
-window.getAuth = (password) ->
+window.getAuth = (password, PASSWORDS) ->
 	sha = new jsSHA("SHA-256", "TEXT")
 	sha.update(password)
 	phash = sha.getHash("B64")
