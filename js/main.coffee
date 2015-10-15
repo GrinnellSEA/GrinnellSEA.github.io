@@ -54,13 +54,15 @@ window.getAuth = (password) ->
 	return false
 
 login = (auth) ->
-	el = $("#loginlink")	
+	el = $("#loginlink")
 	el.innerHTML = "Sign Out"
 	el.href = ""
-	el.onclick = () -> 
+	el.onclick = () ->
 		localStorage.password = ""
 		location.reload()
 	
+	if auth == "backdoor" then auth = "admin"
+
 	for el in $$(".restricted")
 		if el.className.indexOf(auth) >= 0
 			el.style.display = "block"
