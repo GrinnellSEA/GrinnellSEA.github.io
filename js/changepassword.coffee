@@ -36,7 +36,7 @@ registerFunction ->
 				"Changed #{account} password", LOGF)
 		catch error
 
-		if getAuth(abc) == "r_admin" # update OAuth encryption
+		if getAuth(new1) == "r_admin" # update OAuth encryption
 			encr = sjcl.encrypt(new1, decrypt(token_encrypted, old, LOGF))
 			try 
 				repo.write("master", "login/oauth.json", encr, \
