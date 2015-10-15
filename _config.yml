@@ -17,6 +17,9 @@ defaults:
             type: "posts"
         values:
             layout: blog
-            excerpt_separator: <!--END_EXCERPT-->
+            excerpt_separator: "<!--END_EXCERPT-->"
 
 exclude: [vendor, script]
+
+sass:
+    style: compressed
