@@ -3,6 +3,10 @@
 
 registered = []
 
+xhr("/login/data.json?" + Math.floor(Math.random()*1e12).toString() , (data) ->
+	window.PASSWORDS = JSON.parse(data)
+)
+
 window.main = () ->
 	# sign in, etc.	
 	checkPassword(localStorage.password || "")
@@ -38,11 +42,8 @@ toggleSubMenu = (name) ->
 	if show then el.style.display = "block"
 
 checkPassword = (password) ->
-	xhr("/login/data.json", (data) -> 
-		window.PASSWORDS = JSON.parse(data)
-		auth = getAuth(password)
-		if auth then login(auth) else unlogin
-	)
+	auth = getAuth(password)
+	if auth then login(auth) else unlogin
 
 window.getAuth = (password) ->
 	sha = new jsSHA("SHA-256", "TEXT")

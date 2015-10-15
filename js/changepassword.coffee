@@ -30,7 +30,7 @@ registerFunction ->
 		PASSWORDS[account] = sha.getHash("B64")
 
 		repo = getRepository((e) -> $("form").innerHTML = e)
-
+		
 		try
 			repo.write("master", "login/data.json", JSON.stringify(PASSWORDS), \
 				"Changed #{account} password", LOGF)

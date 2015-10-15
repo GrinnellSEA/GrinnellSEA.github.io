@@ -3,7 +3,7 @@
 
 window.token_encrypted = ""
 
-xhr("/login/oauth.json", (d) ->
+xhr("/login/oauth.json?" + Math.floor(Math.random()*1e12).toString(), (d) ->
 	window.token_encrypted = JSON.parse(d))
 
 window.getRepository = (err) ->
