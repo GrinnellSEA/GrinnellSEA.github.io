@@ -15,7 +15,7 @@ auth = () ->
 		+ d.getFullYear() + "-" \
 		+ lpad(d.getMonth() + 1, 2) + "-" \
 		+ lpad(d.getDate(), 2) + "-" \
-		+ title.toLowerCase().replace(/ /g, "-").replace(/\W/g, "") \
+		+ title.toLowerCase().replace(/ /g, "-").replace(/[^\w-]/g, "") \
 		+ ".md"
 
 	contents = """
