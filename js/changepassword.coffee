@@ -33,7 +33,7 @@ registerFunction ->
 		
 		try
 			repo.write("master", "login/data.json", JSON.stringify(PASSWORDS), \
-				"Changed #{account} password", LOGF)
+				"Changed #{account} password [ci skip]", LOGF)
 		catch error
 
 		if getAuth(new1) == "r_admin" # update OAuth encryption

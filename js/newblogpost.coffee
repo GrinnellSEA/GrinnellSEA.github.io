@@ -27,7 +27,8 @@ auth = () ->
 		""" + $("#postText").value
 
 	try
-		repo.write("master", path, contents, "New blog post \"#{title}\" by #{author}", LOGF)
+		repo.write("master", path, contents, \
+			"New blog post \"#{title}\" by #{author} [ci skip]", LOGF)
 	catch error
 
 	$("form").innerHTML = "Posted."
