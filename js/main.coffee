@@ -3,7 +3,7 @@
 
 registered = []
 
-xhr("/login/data.json?" + Math.floor(Math.random()*1e12).toString() , (data) ->
+xhr("/login/data.json?" + (Date.now()/1e4 |0).toString() , (data) ->
 	window.PASSWORDS = JSON.parse(data)
 )
 
