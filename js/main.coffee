@@ -9,10 +9,7 @@ xhr("/login/data.json?" + Math.floor(Math.random()*1e12).toString() , (data) ->
 
 window.main = () ->
 	# sign in, etc.	
-	if PASSWORDS != undefined
-		checkPassword(localStorage.password || "")
-	else
-		setTimeout(checkPassword(localStorage.password || ""), 500)
+	checkPassword(localStorage.password || "")
 	
 	# set up event handlers
 	for el in $$(".mobile .dropdown h3")
@@ -45,8 +42,11 @@ toggleSubMenu = (name) ->
 	if show then el.style.display = "block"
 
 checkPassword = (password) ->
-	auth = getAuth(password)
-	if auth then login(auth) else unlogin
+	if PASSWORDS?
+		auth = getAuth(password)
+		if auth then login(auth) else unlogin()
+	else
+		setTimeout(checkPassword.bind(null, password), 500)
 
 window.getAuth = (password) ->
 	sha = new jsSHA("SHA-256", "TEXT")
