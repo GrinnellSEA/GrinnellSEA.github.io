@@ -1,5 +1,9 @@
 ---
 title: Change Passwords
+scripts:
+  - gitauth
+  - auth
+  - changepassword
 ---
 
 <form class="restricted r_admin">
@@ -20,8 +24,3 @@ title: Change Passwords
 <button id="submit">Change Password</button>
 
 </form>
-
-<script src="/js/github.min.js" async defer></script>
-<script src="/js/gitauth.js" async defer></script>
-<script src="/js/changepassword.js" async defer></script>
-<script src="/js/sjcl.js" async defer></script>
