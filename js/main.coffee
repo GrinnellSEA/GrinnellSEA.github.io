@@ -9,7 +9,7 @@ xhr("/login/data.json?" + Math.floor(Math.random()*1e12).toString() , (data) ->
 
 window.main = () ->
 	# sign in, etc.	
-	if PASSWORDS
+	if PASSWORDS != undefined
 		checkPassword(localStorage.password || "")
 	else
 		setTimeout(checkPassword(localStorage.password || ""), 500)
