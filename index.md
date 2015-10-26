@@ -7,15 +7,12 @@ title: GSEA
 <div id="news">
 
 	<div class="item">
-		<img alt="Banner" class="home" src="/assets/banner-notext.svg" style="height: 100%">
-		<a class="text" href="/2015/10/06/meeting-schedule.html">GSEA Meetings</a>
+		<img alt="Arduino board" class="home"
+		src="/assets/newsreel/arduino.jpeg">
+		<a class="text" href="/2015/10/26/first-parts-arrive.html">Parts
+		Arrive</a>
 	</div>
 
-	<div class="item">
-		<img alt="Martian Water" class="home" src="http://i.space.com/images/i/000/011/377/i02/mars-water-signs-newton-crater-gullies-110804.jpg?1312483871">
-		<a class="text" href="/2015/09/29/water-mars.html">NASA Finds Liquid Water on Mars</a>
-	</div>
-	
 	<div class="item item-text">
 		<h3>Recent Blog Posts</h3>
 		{% for post in site.posts limit: 5 %}
@@ -24,7 +21,18 @@ title: GSEA
 		<a href="/blog" class="more">All posts&hellip;</a>
 	</div>
 
+	<div class="item" style="width: 400px;">
+		<img alt="Banner" class="home" src="/assets/banner-notext.svg"
+		style="height: 100%;">
+		<a class="text" href="/2015/10/06/meeting-schedule.html">GSEA Meetings</a>
+	</div>
+
 	<div class="item">
+		<img alt="Martian Water" class="home" src="http://i.space.com/images/i/000/011/377/i02/mars-water-signs-newton-crater-gullies-110804.jpg?1312483871">
+		<a class="text" href="/2015/09/29/water-mars.html">NASA Finds Liquid Water on Mars</a>
+	</div>
+	
+	<div class="item" flex2>
 		<img alt="Near Space" class="home" lazyload src="https://upload.wikimedia.org/wikipedia/commons/8/83/Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg">
 		<a class="text" href="/missions/nearspaceballoon.html">Near-Space Balloon Project</a>
 	</div>
