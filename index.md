@@ -24,7 +24,7 @@ title: GSEA
 	<div class="item" style="width: 400px;">
 		<img alt="Banner" class="home" src="/assets/banner-notext.svg"
 		style="height: 100%;">
-		<a class="text" href="/2015/10/06/meeting-schedule.html">GSEA Meetings</a>
+		<a class="text" href="/2015/10/06/meeting-schedule.html">Joining</a>
 	</div>
 
 	<div class="item">
