@@ -8,9 +8,11 @@
 		
 		{% if jekyll.environment == "production" %}
    		<base href="{{ site.url }}">
-   		<script type="text/javascript"> <!-- HTTPS redirect -->
+   		<!-- HTTPS redirect -->
+   		<script type="text/javascript">
    			if (location.protocol !== "https:") location.protocol = "https:";
    		</script>
+   		<link rel="canonical" href="{{ site.url }}{{ page.url }}" /> <!-- for search engines -->
 		{% endif %}
 
 		<title>{{ page.title }}</title>
