@@ -3,7 +3,7 @@ title: GSEA Administration
 ---
 
 <div class="restricted r_admin" markdown="1">
-### [Meetings](meetings.html)
+### [Meetings](/administration/meetings.html)
 </div>
 
 <div class="restricted r_member r_admin" markdown="1">
