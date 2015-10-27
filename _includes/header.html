@@ -5,6 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="{{ site.description }}">
+		
+		{% if jekyll.environment == "production" %}
+   		<base href="{{ site.url }}">
+		{% endif %}
 
 		<title>{{ page.title }}</title>
 
