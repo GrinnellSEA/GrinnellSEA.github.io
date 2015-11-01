@@ -1,19 +1,14 @@
 ---
-title: Meeting
+title: Meeting on Monday, November 2<sup>nd</sup>
 ---
 
 ## Agenda
 
-- [Presentation](https://docs.google.com/presentation/d/1yjHWj1I5zD6TFB_jNLy-pqlERS_jfVYsTw4JSCeW-II/present)
-	- Parts order
-	- Design Roles
-- Decide leads
-- Approve Subsystems, etc. in [SE document](https://docs.google.com/document/d/14VR2ETtxh1yiKK5IgwzH1H8sK8PScp6Wprmbo-aooMg/edit#)
+- [Presentation](https://docs.google.com/presentation/d/1DJaFTfM2bjMb-PlBJ3kQHM_GnwYpxZvwdi1VuNQWPH/present)
+- Set timeline for subsystems
+- Start design documents (Administration > System Progress Tracking)
 - Design
-- Roster and Name Selection
-
-<script>
-	var options = {month: "long", weekday: "long", day: "numeric"};
-	document.querySelector("h1").innerHTML += " on " + Intl.DateTimeFormat(navigator.language,
-		options).format(new Date());
-</script>
+	- Drawings
+	- Basic Parts Lists
+- Research
+- Roster & Name selection
