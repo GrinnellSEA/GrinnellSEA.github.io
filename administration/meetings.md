@@ -1,5 +1,5 @@
 ---
-title: Meeting on Monday, November 2<sup>nd</sup>
+title: Meeting on Monday, November 2
 ---
 
 ## Agenda
