@@ -11,7 +11,7 @@ video as well as record temperature and pressure data along the way.
 ## Name
 
 The probe&rsquo;s name will be decided through an open public competition.
-Submit your ideas [here](/2015/09/22/naming.html).
+Vote on the final five ideas [here](/2015/11/02/final-name-selection.html).
 
 ## Project files
 
