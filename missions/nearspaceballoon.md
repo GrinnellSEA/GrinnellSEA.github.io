@@ -1,17 +1,15 @@
 ---
-title: Near-Space Balloon Project
+title: Transcendence Near-Space Balloon
 ---
 
 <img alt="schematic" src="/assets/overview-diagram.svg" height="">
 
-The Near-Space Balloon is a 1-2 lb probe that will be attached to a weather
+Transcendence is a 1-2 lb probe that will be attached to a weather
 balloon and flown to a height of 100,000 ft.  The probe will take pictures and
 video as well as record temperature and pressure data along the way.
-
-## Name
-
-The probe&rsquo;s name will be decided through an open public competition.
-Vote on the final five ideas [here](/2015/11/02/final-name-selection.html).
+Transcendence will also get its position and altitude from GPS satellites.  It
+will broadcast its location, along with its other sensor data, to the ground,
+where a human team will receive it and track the probe's progress.
 
 ## Project files
 
