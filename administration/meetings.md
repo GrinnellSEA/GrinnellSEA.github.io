@@ -1,9 +1,5 @@
 ---
-title: Meeting on Monday, November 9
+title: Meeting on Monday, February 8
 ---
 
-## Agenda
-
-- Final Name selection (spreadsheet)[https://docs.google.com/spreadsheets/d/1VY3hz4gW4FcuQbHoePMx30VbLU-lOHwd9CMrNdw3ZNU/edit#gid=1176762772]
-- Set timeline for subsystems
-- Design
+## (Presentation)[https://docs.google.com/presentation/d/1ywK_SWmPGs_yjC5b6mqecTB9gYVtIAyxjb1pRe1_3Eo/present?slide=id.p]
