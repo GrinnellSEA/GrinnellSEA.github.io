@@ -1,15 +1,15 @@
 ---
 title: GSEA
+layout: main
 ---
 
-## The Grinnell Space Exploration Agency
+# The Grinnell Space Exploration Agency
 
 <div id="news">
 
-	<div class="item">
-		<img alt="Near Space" class="home" lazyload src="https://upload.wikimedia.org/wikipedia/commons/8/83/Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg">
-		<a class="text" href="/2015/11/09/name-announcement.html">
-		Name Announced for Near-Space Balloon Project</a>
+	<div class="item" flex2>
+		<img alt="Gravitational Waves" class="home" src="http://www.popsci.com/sites/popsci.com/files/styles/medium_1x_/public/figure2.jpg?itok=SANNarB5">
+		<a class="text" href="/2016/02/12/ligo-finds-gravitational-waves.html">LIGO Finds Gravitational Waves</a>
 	</div>
 
 	<div class="item item-text">
@@ -20,22 +20,23 @@ title: GSEA
 		<a href="/blog" class="more">All posts&hellip;</a>
 	</div>
 
-	<div class="item">
-		<img alt="Arduino board" class="home"
-		src="/assets/newsreel/arduino.jpeg">
-		<a class="text" href="/2015/10/26/first-parts-arrive.html">Parts
-		Arrive</a>
-	</div>
-
 	<div class="item" style="width: 400px;">
 		<img alt="Banner" class="home" src="/assets/banner-notext.svg"
 		style="height: 100%;">
 		<a class="text" href="/2015/10/06/meeting-schedule.html">Joining</a>
 	</div>
 
-	<div class="item" flex2>
-		<img alt="Martian Water" class="home" src="http://i.space.com/images/i/000/011/377/i02/mars-water-signs-newton-crater-gullies-110804.jpg?1312483871">
-		<a class="text" href="/2015/09/29/water-mars.html">NASA Finds Liquid Water on Mars</a>
+	<div class="item">
+		<img alt="Near Space" class="home" lazyload src="https://upload.wikimedia.org/wikipedia/commons/8/83/Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg">
+		<a class="text" href="/missions/nearspaceballoon.html">
+		Transcendence Near-Space Balloon Project</a>
+	</div>
+
+	<div class="item">
+		<img alt="Arduino board" class="home"
+		src="/assets/newsreel/arduino.jpeg">
+		<a class="text" href="/2015/10/26/first-parts-arrive.html">Parts
+		Arrive</a>
 	</div>
 
 	<div class="item">
