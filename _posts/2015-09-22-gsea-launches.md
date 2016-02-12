@@ -3,7 +3,7 @@ title: GSEA Launches!
 author: Cory McCartan
 ---
 
-The Grinnell Space Exploration Agency launched today.  The first mission will
+The Grinnell Space Exploration Agency launched today.<!--END_EXCERPT-->  The first mission will
 be the [Near-Space Balloon Project](/missions/nearspaceballoon.html).
 
 ## Joining
