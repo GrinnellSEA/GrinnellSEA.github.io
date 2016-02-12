@@ -3,7 +3,7 @@ title: LIGO Finds Gravitational Waves
 author: Cory McCartan
 ---
 The National Science Foundation's LIGO experiment today announced that it had observed gravitational waves, the result of two colliding black holes around a billion years ago. 
-<!-- END_EXCERPT-->
+<!--END_EXCERPT-->
 
 Both LIGO detectors, in Washington and in Louisiana, confirmed the gravitational waves.
 
