@@ -28,7 +28,7 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 </div>
 
-[System Progress Tracking](https://docs.google.com/document/d/1BPysrvO8gSOnd8NBbkP2i5snh8qwPDoDyeyJ6W0BSR4/edit?usp=sharing)
+[Subsystem Planning Document](https://docs.google.com/document/d/1BPysrvO8gSOnd8NBbkP2i5snh8qwPDoDyeyJ6W0BSR4/edit?usp=sharing)
 
 ### Resources
 

@@ -13,21 +13,31 @@ where a human team will receive it and track the probe's progress.
 
 ## Project files
 
+<div class="restricted r_guest r_member r_admin" markdown="1">
+
+[All Project Files](https://drive.google.com/folderview?id=0B7UBOTu3UBdUa1FkbEFJdGRlaEU&usp=sharing)
+
+</div>
+
 [Software](https://github.com/GrinnellSEA/NearSpaceBalloon)
+
+[CAD Models](https://github.com/GrinnellSEA/CAD)
 
 <div class="restricted r_guest r_member r_admin" markdown="1">
 
 [Systems Engineering Document](https://docs.google.com/document/d/14VR2ETtxh1yiKK5IgwzH1H8sK8PScp6Wprmbo-aooMg/edit?usp=sharing)
 
-[Tenative project
-schedule](https://docs.google.com/spreadsheets/d/1TWXJ5Zj-GaqG0TtZc1NNDKbJ_KkzAh8Y_ZfhpWlblIs/pubhtml?gid=0&single=true)
+[Schedule](https://docs.google.com/spreadsheets/d/1TWXJ5Zj-GaqG0TtZc1NNDKbJ_KkzAh8Y_ZfhpWlblIs/pubhtml?gid=0&single=true)
 
-[Bill of
-Materials](https://docs.google.com/spreadsheets/d/1j_JqA0sTVpxmT0K8u04GUVnD9J1U0fGas19MfduKVpY/pubhtml?gid=919186201&amp;single=true&amp;widget=true&amp;headers=false)
+[Bill of Materials](https://docs.google.com/spreadsheets/d/1j_JqA0sTVpxmT0K8u04GUVnD9J1U0fGas19MfduKVpY/pubhtml?gid=919186201&amp;single=true&amp;widget=true&amp;headers=false)
 
-[Radio Transmission Protocol](https://docs.google.com/document/d/1k0QxupVQxysimdQDeps3NqDQKYf1grW0MGYjBPiKl7M/pub?embedded=true)
+</div>
+<div class="restricted r_member r_admin" markdown="1">
 
-[All Project
-Files](https://drive.google.com/folderview?id=0B7UBOTu3UBdUa1FkbEFJdGRlaEU&usp=sharing)
+## Useful Links
+
+[Submit Review Request](https://docs.google.com/forms/d/1yAU-LYgOhWULHwe9Ejq0_dmjwOMEtClFsM5wlTzklH8/viewform?entry.1003946160&entry.548196545&entry.440845126=2)
+
+[Submit Parts Order](https://docs.google.com/forms/d/1hhSpG48cjOC3B4VpkQMxftGJdfarbLL_ZKpN8BTPjto/viewform)
 
 </div>
