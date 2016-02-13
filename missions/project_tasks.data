@@ -42,7 +42,7 @@ null
 ====
 cad_MOV 
 Model all MOV parts in SketchUp 
-DAT 
+MOV 
 3
 0%  
 parts_MOV
@@ -63,7 +63,7 @@ parts_MOV,cad_MOV
 ====
 assemble_PKG    
 Assemble PKG    
-PKG 
+GSEA 
 7
 0%  
 design_PKG,test_SFT 
@@ -92,6 +92,6 @@ assemble
 launch  
 Launch the probe    
 GSEA    
-1
+7
 0%  
 test
