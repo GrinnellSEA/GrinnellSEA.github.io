@@ -2,6 +2,12 @@
 ---
 
 window.drawChart = () ->
+    Tabletop.init({
+        key: "1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ"
+        callback: onData
+    })
+
+onData = (spreadsheet) ->
     data = new google.visualization.DataTable()
     data.addColumn("string", "Task ID")
     data.addColumn("string", "Task Name")
@@ -12,26 +18,25 @@ window.drawChart = () ->
     data.addColumn("number", "Percent Complete")
     data.addColumn("string", "Dependencies")
 
-    raw = $("#gantt_data").innerText.trim().split("====\n")
-    rows = (line.split("\n") for line in raw)
-    for i in [0..rows.length-1]
-        line = (item.trim() for item in rows[i])
-        row = [
-            line[0]
-            line[1]
-            line[2]
-            if line[5] == "null" then new Date("2/15/2016") else null
+    rows = []
+    tasks = spreadsheet.tasks.elements
+
+    for task in tasks
+        rows.push([
+            task.id.trim()
+            task.description.trim()
+            task.system.trim()
+            if task.depends.trim() == "" then new Date("2/15/2016") else null
             null
-            if line[3] == "null" then null else 864e5 * parseFloat(line[3])
-            if line[4] == "null" then null else parseFloat(line[4])
-            if line[5] == "null" then null else line[5]
-        ]
-        rows[i] = row
+            if task.days.trim() == "" then null else 864e5 * parseFloat(task.days)
+            if task.complete.trim() == "" then null else parseFloat(task.complete)
+            if task.depends.trim() == "" then null else task.depends.trim()
+        ])
 
     data.addRows(rows)
 
     options =
-        height: 600
+        height: rows.length * 32 + 48
         backgroundColor:
             fill: "#fcfcfc"
         gantt:
@@ -49,6 +54,7 @@ window.drawChart = () ->
 
     chart = new google.visualization.Gantt($("#gantt"))
     chart.draw(data, options)
+    google.visualization.events.addListener(chart, "error", console.log.bind(console))
 
 google.charts.load("current", {packages: ["gantt"]})
 google.charts.setOnLoadCallback(drawChart)

@@ -1,6 +1,7 @@
 ---
 title: Transcendence Near-Space Balloon
 scripts:
+  - tabletop
   - gantt
 ---
 
@@ -49,10 +50,6 @@ where a human team will receive it and track the probe's progress.
 ## Project Management
 
 <div id="gantt"></div>
-</div>
-
-<div style="display:none" id="gantt_data">
-{% include_relative project_tasks.data %}
 </div>
 
 <script type="text/javascript" defer src="https://www.gstatic.com/charts/loader.js"></script>
