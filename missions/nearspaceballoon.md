@@ -1,5 +1,7 @@
 ---
 title: Transcendence Near-Space Balloon
+scripts:
+  - gantt
 ---
 
 <img alt="schematic" src="/assets/overview-diagram.svg" height="">
@@ -41,3 +43,16 @@ where a human team will receive it and track the probe's progress.
 [Submit Parts Order](https://docs.google.com/forms/d/1hhSpG48cjOC3B4VpkQMxftGJdfarbLL_ZKpN8BTPjto/viewform)
 
 </div>
+
+<div class="restricted r_guest r_member r_admin" markdown="1">
+
+## Project Management
+
+<div id="gantt"></div>
+</div>
+
+<div style="display:none" id="gantt_data">
+{% include_relative project_tasks.data %}
+</div>
+
+<script type="text/javascript" defer src="https://www.gstatic.com/charts/loader.js"></script>

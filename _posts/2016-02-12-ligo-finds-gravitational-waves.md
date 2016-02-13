@@ -7,6 +7,10 @@ The National Science Foundation's LIGO experiment today announced that it had ob
 
 Both LIGO detectors, in Washington and in Louisiana, confirmed the gravitational waves.
 
+Watch the video below to hear what the waves sound like.  The first sound is unaltered; the second, a frequency-shifted version that is more in the range of human hearing.
+
+<script height="352px" width="540px" src="http://player.ooyala.com/iframe.js#ec=x0dGF1MDE6yMowM-v7rJi0cfs0YnWbHD&pbid=91ac0f6dcbdf466c84659dbc54039487"></script>
+
 Read more on the [NSF's announcement](http://www.nsf.gov/news/news_summ.jsp?cntn_id=137628).
 
 ![Gravitational Waves](http://scitechdaily.com/images/Gravitational-Waves-Help-Astronomers-Understand-Black-Hole-Weight-Gain.jpg)

@@ -29,7 +29,7 @@ layout: main
 	<div class="item">
 		<img alt="Near Space" class="home" lazyload src="https://upload.wikimedia.org/wikipedia/commons/8/83/Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg">
 		<a class="text" href="/missions/nearspaceballoon.html">
-		Transcendence Near-Space Balloon Project</a>
+		Transcendence Near-Space Balloon</a>
 	</div>
 
 	<div class="item">

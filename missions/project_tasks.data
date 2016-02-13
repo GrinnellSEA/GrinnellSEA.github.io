@@ -1,0 +1,97 @@
+finalize_SFT
+Finalize parts for SFT/BRD
+SFT
+5
+40%
+null
+====
+shipping
+Wait for parts shipments
+SFT
+5
+0%
+finalize_SFT
+====
+finalize_DAT
+Finalize parts for DAT
+DAT 
+2   
+85% 
+null
+====
+cad_DAT
+Model all DAT parts in SketchUp
+DAT     
+3
+60%
+null
+====
+cad_PKG 
+Model all PKG parts in SketchUp 
+DAT 
+3
+40% 
+null
+====
+parts_MOV   
+Finalize parts for MOV  
+MOV 
+12
+10%  
+null
+====
+cad_MOV 
+Model all MOV parts in SketchUp 
+DAT 
+3
+0%  
+parts_MOV
+====
+design_PKG  
+Finish PKG design   
+PKG 
+10
+5%  
+finalize_DAT,cad_DAT,cad_PKG
+====
+design_MOV  
+Finish MOV design   
+MOV 
+14
+0%  
+parts_MOV,cad_MOV
+====
+assemble_PKG    
+Assemble PKG    
+PKG 
+7
+0%  
+design_PKG,test_SFT 
+====
+test_SFT    
+Test all software and hardware  
+SFT 
+21
+5%	
+finalize_DAT,shipping
+====
+assemble    
+Assemble entire probe   
+GSEA    
+7
+0% 
+design_MOV,assemble_PKG
+====
+test    
+Test entire system  
+GSEA    
+14
+0%  
+assemble
+====
+launch  
+Launch the probe    
+GSEA    
+1
+0%  
+test
