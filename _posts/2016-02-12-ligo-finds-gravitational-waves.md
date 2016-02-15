@@ -11,6 +11,6 @@ Watch the video below to hear what the waves sound like.  The first sound is una
 
 <script height="352px" width="540px" src="https://player.ooyala.com/iframe.js#ec=x0dGF1MDE6yMowM-v7rJi0cfs0YnWbHD&pbid=91ac0f6dcbdf466c84659dbc54039487"></script>
 
-Read more on the [NSF's announcement](http://www.nsf.gov/news/news_summ.jsp?cntn_id=137628).
+Read more on the [NSF's announcement](https://www.nsf.gov/news/news_summ.jsp?cntn_id=137628).
 
-![Gravitational Waves](http://scitechdaily.com/images/Gravitational-Waves-Help-Astronomers-Understand-Black-Hole-Weight-Gain.jpg)
+![Gravitational Waves](https://scitechdaily.com/images/Gravitational-Waves-Help-Astronomers-Understand-Black-Hole-Weight-Gain.jpg)
