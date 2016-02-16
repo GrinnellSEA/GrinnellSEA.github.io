@@ -43,6 +43,8 @@ where a human team will receive it and track the probe's progress.
 
 [Submit Parts Order](https://docs.google.com/forms/d/1hhSpG48cjOC3B4VpkQMxftGJdfarbLL_ZKpN8BTPjto/viewform)
 
+[Download SketchUp](https://www.sketchup.com/download?sketchup=make)
+
 </div>
 
 <div class="restricted r_guest r_member r_admin" markdown="1">
