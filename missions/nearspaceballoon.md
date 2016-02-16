@@ -32,7 +32,7 @@ where a human team will receive it and track the probe's progress.
 
 [Schedule](https://docs.google.com/spreadsheets/d/1TWXJ5Zj-GaqG0TtZc1NNDKbJ_KkzAh8Y_ZfhpWlblIs/pubhtml?gid=0&single=true)
 
-[Bill of Materials](https://docs.google.com/spreadsheets/d/1j_JqA0sTVpxmT0K8u04GUVnD9J1U0fGas19MfduKVpY/pubhtml?gid=919186201&amp;single=true&amp;widget=true&amp;headers=false)
+[Bill of Materials](https://docs.google.com/spreadsheets/d/1j_JqA0sTVpxmT0K8u04GUVnD9J1U0fGas19MfduKVpY/edit?usp=sharing)
 
 </div>
 <div class="restricted r_member r_admin" markdown="1">
