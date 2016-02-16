@@ -11,4 +11,4 @@ name.  The team members then chose the top five names, which were put on a
 final online ballot and voted on over a week.  
 
 More information about the project itself can be found on its [mission
-page](/missions/nearspaceballoon.html).
+page](/missions/nearspaceballoon).

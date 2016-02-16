@@ -16,7 +16,7 @@ exploration, and collaboration—drive everything we do.
 ## Missions
 
 GSEA is currently working on one mission, the Near-Space Balloon Project.
-Learn more about it on its [mission page](/missions/nearspaceballoon.html).
+Learn more about it on its [mission page](/missions/nearspaceballoon).
 
 ## Software and Code
 
