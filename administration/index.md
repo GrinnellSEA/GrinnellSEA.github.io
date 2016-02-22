@@ -3,7 +3,7 @@ title: GSEA Administration
 ---
 
 <div class="restricted r_admin" markdown="1">
-### [Meetings](/administration/meetings.html)
+### [Slides for Meeting](https://docs.google.com/presentation/d/1R1Wey5iAcaRC0oOf0WljuBOjWjnq-6MFQsKvWFqmXBo/present)
 </div>
 
 <div class="restricted r_member r_admin" markdown="1">
@@ -38,7 +38,7 @@ New members---please fill out [this interest survey](https://docs.google.com/for
 
 ## Administration
 
-[Change Passwords](/administration/passwordchange.html)
+[Change Passwords](/administration/passwordchange/)
 
 [Personnel Data](https://goo.gl/CJHUNI)
 
