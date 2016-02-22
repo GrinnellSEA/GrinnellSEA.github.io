@@ -51,7 +51,7 @@ where a human team will receive it and track the probe's progress.
 
 ## Project Management
 
-<a class="restricted r_admin" href="https://docs.google.com/spreadsheets/d/1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ/edit#gid=0">Edit Chart Data</a>
+<a class="restricted r_admin" target="_blank" href="https://docs.google.com/spreadsheets/d/1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ/edit#gid=0">Edit Chart Data</a>
 
 <div id="gantt"></div>
 </div>
