@@ -72,7 +72,7 @@ login = (auth) ->
 
 	for el in $$(".restricted")
 		if el.className.indexOf(auth) >= 0
-			el.style.display = "block"
+			el.style.display = "initial"
 	
 unlogin = () ->
 	for el in $$(".restricted")
