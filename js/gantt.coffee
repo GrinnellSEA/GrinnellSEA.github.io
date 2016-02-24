@@ -21,12 +21,14 @@ onData = (spreadsheet) ->
     rows = []
     tasks = spreadsheet.tasks.elements
 
+    defaultStartDate = new Date("2/15/2016")
+
     for task in tasks
         rows.push([
             task.id.trim()
             task.description.trim()
             task.system.trim()
-            if task.depends.trim() == "" then new Date("2/8/2016") else null
+            if task.depends.trim() == "" then defaultStartDate else null
             null
             if task.days.trim() == "" then null else 864e5 * parseFloat(task.days)
             if task.complete.trim() == "" then null else parseFloat(task.complete)
@@ -40,7 +42,7 @@ onData = (spreadsheet) ->
         backgroundColor:
             fill: "#fcfcfc"
         gantt:
-            defaultStartDate: new Date("2/8/2016")
+            defaultStartDate: defaultStartDate
             criticalPathEnabled: true
             criticalPathStyle:
                 strokeWidth: 3
