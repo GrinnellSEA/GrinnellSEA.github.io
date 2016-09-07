@@ -7,9 +7,10 @@ layout: main
 
 <div id="news">
 
-	<div class="item" flex2>
-		<img alt="Gravitational Waves" class="home" src="http://www.popsci.com/sites/popsci.com/files/styles/medium_1x_/public/figure2.jpg?itok=SANNarB5">
-		<a class="text" href="/2016/02/12/ligo-finds-gravitational-waves.html">LIGO Finds Gravitational Waves</a>
+	<div class="item" style="width: 400px;">
+		<img alt="Banner" class="home" src="/assets/banner-notext.svg"
+		style="height: 100%;">
+		<a class="text" href="/2016/09/06/first-meeting.html">First GSEA Meeting — Join us!</a>
 	</div>
 
 	<div class="item item-text">
@@ -20,10 +21,9 @@ layout: main
 		<a href="/blog" class="more">All posts&hellip;</a>
 	</div>
 
-	<div class="item" style="width: 400px;">
-		<img alt="Banner" class="home" src="/assets/banner-notext.svg"
-		style="height: 100%;">
-		<a class="text" href="/2015/10/06/meeting-schedule.html">Joining</a>
+	<div class="item" flex2>
+		<img alt="Gravitational Waves" class="home" src="http://www.popsci.com/sites/popsci.com/files/styles/medium_1x_/public/figure2.jpg?itok=SANNarB5">
+		<a class="text" href="/2016/02/12/ligo-finds-gravitational-waves.html">LIGO Finds Gravitational Waves</a>
 	</div>
 
 	<div class="item">
