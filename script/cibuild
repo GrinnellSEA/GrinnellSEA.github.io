@@ -4,4 +4,4 @@ set -e # halt on error
 
 bundle install
 bundle exec jekyll build
-bundle exec htmlproof ./_site --url-ignore \# --checks-to-ignore ScriptCheck --check-favicon
+bundle exec htmlproofer ./_site --url-ignore \# --checks-to-ignore ScriptCheck --check-favicon
