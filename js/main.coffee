@@ -72,7 +72,7 @@ login = (auth) ->
 
 	for el in $$(".restricted")
 		if el.className.indexOf(auth) >= 0
-			if el.tagName === "DIV"
+			if el.tagName == "DIV"
 				el.style.display = "block"
 			else
 				el.style.display = "initial"
