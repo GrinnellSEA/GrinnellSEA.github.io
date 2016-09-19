@@ -21,7 +21,7 @@ onData = (spreadsheet) ->
     rows = []
     tasks = spreadsheet.tasks.elements
 
-    defaultStartDate = new Date("2/15/2016")
+    defaultStartDate = new Date("9/24/2016")
 
     for task in tasks
         rows.push([
