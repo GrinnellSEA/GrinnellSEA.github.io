@@ -58,4 +58,8 @@ where a human team will receive it and track the probe's progress.
 <div id="gantt"></div>
 </div>
 
+## System Interfaces
+
+<iframe src="https://docs.google.com/spreadsheets/d/1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ/pubhtml?gid=452865764&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 <script type="text/javascript" defer src="https://www.gstatic.com/charts/loader.js"></script>
