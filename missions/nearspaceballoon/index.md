@@ -30,6 +30,8 @@ where a human team will receive it and track the probe's progress.
 
 [Systems Engineering Document](https://docs.google.com/document/d/14VR2ETtxh1yiKK5IgwzH1H8sK8PScp6Wprmbo-aooMg/edit?usp=sharing)
 
+[FMEA](https://docs.google.com/spreadsheets/d/1Bh0h-P6PyiRkgUm83ihbQk0tLOYNsr4Qb8DkGpzpuKc/edit?usp=sharing)
+
 [Weight Budget](https://docs.google.com/spreadsheets/d/1jD0SmQ3_x5MIjTDwnQwBU00XJXBCC8uxsBUvdUUqI4Q/edit#gid=0)
 
 [Bill of Materials](https://docs.google.com/spreadsheets/d/1j_JqA0sTVpxmT0K8u04GUVnD9J1U0fGas19MfduKVpY/edit?usp=sharing)
