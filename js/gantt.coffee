@@ -48,6 +48,7 @@ onData = (spreadsheet) ->
                 strokeWidth: 3
             labelStyle:
                 fontName: "Lato"
+                fontWeight: 400
             shadowEnabled: false
             barHeight: 20
             trackHeight: 32
