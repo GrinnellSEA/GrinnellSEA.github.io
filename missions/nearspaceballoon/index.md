@@ -60,6 +60,6 @@ where a human team will receive it and track the probe's progress.
 
 ## System Interfaces
 
-<iframe height=800 src="https://docs.google.com/spreadsheets/d/1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ/pubhtml?gid=452865764&amp;single=true&amp;widget=false&amp;chrome=false&amp;headers=false&amp;range=B1:Z"></iframe>
+<iframe height="800" src="https://docs.google.com/spreadsheets/d/1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ/pubhtml?gid=452865764&single=true&widget=false&chrome=false&headers=false&range=B1:Z"></iframe>
 
 <script type="text/javascript" defer src="https://www.gstatic.com/charts/loader.js"></script>
