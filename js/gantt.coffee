@@ -24,6 +24,9 @@ onData = (spreadsheet) ->
     defaultStartDate = new Date("9/24/2016")
 
     for task in tasks
+        if parseFloat(task.complete) == 1
+            continue
+            
         rows.push([
             task.id.trim()
             task.description.trim()
@@ -31,7 +34,7 @@ onData = (spreadsheet) ->
             if task.depends.trim() == "" then defaultStartDate else null
             null
             if task.days.trim() == "" then null else 864e5 * parseFloat(task.days)
-            if task.complete.trim() == "" then null else parseFloat(task.complete)
+            if task.complete.trim() == "" then 0 else parseFloat(task.complete)
             if task.depends.trim() == "" then null else task.depends.trim()
         ])
 
