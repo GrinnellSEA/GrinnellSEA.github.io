@@ -24,7 +24,7 @@ onData = (spreadsheet) ->
     defaultStartDate = new Date("9/24/2016")
 
     for task in tasks
-        if parseFloat(task.complete) == 1
+        if parseFloat(task.complete) == 100
             continue
             
         rows.push([
