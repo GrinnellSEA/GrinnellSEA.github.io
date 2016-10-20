@@ -30,6 +30,8 @@ where a human team will receive it and track the probe's progress.
 
 [Systems Engineering Document](https://docs.google.com/document/d/14VR2ETtxh1yiKK5IgwzH1H8sK8PScp6Wprmbo-aooMg/edit?usp=sharing)
 
+[FMEA](https://docs.google.com/spreadsheets/d/1Bh0h-P6PyiRkgUm83ihbQk0tLOYNsr4Qb8DkGpzpuKc/edit?usp=sharing)
+
 [Weight Budget](https://docs.google.com/spreadsheets/d/1jD0SmQ3_x5MIjTDwnQwBU00XJXBCC8uxsBUvdUUqI4Q/edit#gid=0)
 
 [Bill of Materials](https://docs.google.com/spreadsheets/d/1j_JqA0sTVpxmT0K8u04GUVnD9J1U0fGas19MfduKVpY/edit?usp=sharing)
@@ -51,9 +53,15 @@ where a human team will receive it and track the probe's progress.
 
 ## Project Management
 
-<a class="restricted r_admin" target="_blank" href="https://docs.google.com/spreadsheets/d/1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ/edit#gid=0">Edit Chart Data</a>
+<a class="restricted r_admin r_member" target="_blank" href="https://docs.google.com/spreadsheets/d/1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ/edit#gid=0">Update tasks and progress</a>
 
 <div id="gantt"></div>
-</div>
+
+## System Interfaces
+
+<iframe style="width:1010px;margin-left:-15px;height:790px" src="https://docs.google.com/spreadsheets/d/1vejpdG97f67MUdYa-FhJXUd24lPtTWKbBOzQV3XGAkQ/pubhtml?gid=452865764&single=true&widget=false&chrome=false&headers=false&range=B1:Z"></iframe>
 
 <script type="text/javascript" defer src="https://www.gstatic.com/charts/loader.js"></script>
+
+</div>
+

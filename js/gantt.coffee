@@ -21,18 +21,18 @@ onData = (spreadsheet) ->
     rows = []
     tasks = spreadsheet.tasks.elements
 
-    defaultStartDate = new Date("2/15/2016")
+    defaultStartDate = new Date("9/17/2016")
 
     for task in tasks
         rows.push([
-            task.id.trim()
-            task.description.trim()
-            task.system.trim()
-            if task.depends.trim() == "" then defaultStartDate else null
+            task.id
+            task.description
+            task.system
+            if task.start == "" then (if task.depends == "" then defaultStartDate else null) else new Date(task.start)
             null
-            if task.days.trim() == "" then null else 864e5 * parseFloat(task.days)
-            if task.complete.trim() == "" then null else parseFloat(task.complete)
-            if task.depends.trim() == "" then null else task.depends.trim()
+            if task.days == "" then null else 864e5 * parseFloat(task.days)
+            if task.complete == "" then 0 else parseFloat(task.complete)
+            if task.depends == "" then null else task.depends
         ])
 
     data.addRows(rows)
@@ -48,6 +48,7 @@ onData = (spreadsheet) ->
                 strokeWidth: 3
             labelStyle:
                 fontName: "Lato"
+                fontWeight: 400
             shadowEnabled: false
             barHeight: 20
             trackHeight: 32
